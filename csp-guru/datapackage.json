@@ -1,0 +1,23 @@
+{
+    "title": "A database of concentrated solar power plants of the world, for energy modellers and analysts.",
+    "homepage": "https://csp.guru",
+    "version": "2016-08-30",
+    "resources": [
+        {
+            "path": "CSP.guru-2016-08-30.csv",
+            "hash": "0ed89d2fe7c96615ad70d79ce64693a8"
+        }
+    ],
+    "contributors": [
+        {
+            "title": "Johan Lilliestam",
+            "email": "johan.lilliestam@usys.ethz.ch",
+            "role": "author"
+        },
+        {
+            "title": "Mercè Labordena",
+            "email": "merce.larbordena@usys.ethz.ch",
+            "role": "author"
+        }
+    ]
+}
