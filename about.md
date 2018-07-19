@@ -5,6 +5,6 @@ permalink: /about/
 ---
 
 
-{% assign description = site.data.datapackage["long_description"] %}
+{% assign long_description = site.data.datapackage["long_description"] %}
 
-{{ description }}
+{{ long_description }}
