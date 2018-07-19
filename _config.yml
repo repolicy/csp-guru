@@ -1,0 +1,15 @@
+title: CSP.guru
+author: Renewable Energy Policy Group
+email: richard.thonig@usys.ethz.ch
+description: >-
+  This site provides and visualises the CSP.guru dataset of concentrated solar power plants.
+url: "https://csp.guru/"
+github_username:  repolicy
+
+data_dir: csp-guru
+markdown: kramdown
+theme: minima
+header_pages:
+    - data.md
+    - metadata.md
+    - about.md
