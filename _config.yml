@@ -11,4 +11,5 @@ markdown: kramdown
 theme: minima
 header_pages:
     - data.md
+    - metadata.md
     - about.md

@@ -4,6 +4,7 @@ title: About
 permalink: /about/
 ---
 
-This is a database.
 
-[Renewable Energy Policy Group](http://www.rep.ethz.ch)
+{% assign description = site.data.datapackage["long_description"] %}
+
+{{ description }}
