@@ -4,7 +4,7 @@
     "version": "2016-08-30",
     "resources": [
         {
-            "path": "csp-guru-2016-08-30.csv",
+            "path": "csp-guru.csv",
             "hash": "0ed89d2fe7c96615ad70d79ce64693a8"
         }
     ],
