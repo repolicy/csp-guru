@@ -15,7 +15,7 @@ title: Plant List
         </tr>
     </thead>
     <tbody>
-    {% for plant in site.data.csp-guru-2016-08-30 %}
+    {% for plant in site.data.csp-guru %}
         <tr>
             <td>{{ plant.Title }}</td>
             <td>{{ plant.Year_operational }}</td>
