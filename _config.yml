@@ -11,9 +11,3 @@ theme: minima
 header_pages:
     - data.md
     - about.md
-page_gen:
-  - index_files: false
-    data: csp-guru-2016-08-30
-    template: plant
-    dir: plant
-    name: Title
