@@ -38,11 +38,11 @@
                     },
                     {
                         "name": "Lon",
-                        "description": "Longitude of the plant"
+                        "description": "longitude of the plant"
                     },
                     {
                         "name": "DNI",
-                        "description": "direct normal irradiance  (DNI) [kWh/m²/y] indicates the solar resources"
+                        "description": "direct normal irradiance (DNI) [kWh/m²/yr], indicates the solar resources"
                     },
                     {
                         "name": "Year_construction_start",
@@ -50,7 +50,7 @@
                     },
                     {
                         "name": "Technology",
-                        "description": "distinguishes CSP designs in Trough, Tower, Hybrid, Fresnel "
+                        "description": "distinguishes CSP technologies: Trough, Tower, Hybrid, Fresnel "
                     },
                     {
                         "name": "Capacity",
@@ -58,7 +58,7 @@
                     },
                     {
                         "name": "Storage_capacity",
-                        "description": " how many hours the turbine can run on stored heat alone [h]"
+                        "description": " hours the turbine can run on stored heat alone [h]"
                     },
                     {
                         "name": "Field_size",
@@ -118,23 +118,23 @@
                     },
                     {
                         "name": "LCOE_5_2015USD",
-                        "description": "levelized cost of electricity with 5 years payback [ct/kWh], 2015 USD discounted"
+                        "description": "levelized cost of electricity with 5% weighted average cost of capital [ct/kWh], 2015 USD discounted"
                     },
                     {
                         "name": "LCOE_10_2015USD",
-                        "description": "levelized cost of electricity with 10 years payback [ct/kWh], 2015 USD discounted"
+                        "description": "levelized cost of electricity with 10% weighted average cost of capital [ct/kWh], 2015 USD discounted"
                     },
                     {
                         "name": "LCOE_5_2015EUR",
-                        "description": "levelized cost of electricity with 5 years payback [ct/kWh], 2015 EURO discounted"
+                        "description": "levelized cost of electricity with 5% weighted average cost of capital [ct/kWh], 2015 EURO discounted"
                     },
                     {
                         "name": "LCOE_10_2015EUR",
-                        "description": "levelized cost of electricity with 10 years payback [ct/kWh], 2015 EURO discounted"
+                        "description": "levelized cost of electricity with 10% weighted average cost of capital [ct/kWh], 2015 EURO discounted"
                     },
                     {
                         "name": "Other_support",
-                        "description": "financial assistence to project developer like tax credits, cheap credits, etc."
+                        "description": "financial assistance to project developer: tax credits, cheap credits, etc."
                     },
                     {
                         "name": "Owner",
@@ -142,7 +142,7 @@
                     },
                     {
                         "name": "Support_duration",
-                        "description": "duration of PPA, FiT, etc. [a]"
+                        "description": "duration of PPA, FiT, etc. [yr]"
                     },
                     {
                         "name": "Enipedia_ID",
@@ -150,11 +150,11 @@
                     },
                     {
                         "name": "SolarPACES_ID",
-                        "description": "SolarPACES_ID "
+                        "description": "SolarPACES_ID/NREL: https://www.nrel.gov/csp/solarpaces/index.cfm "
                     },
                     {
                         "name": "Sources",
-                        "description": "indicates were the information for each plant was taken from"
+                        "description": "indicates where the information for each plant was taken from"
                     }
                 ]
             }
@@ -168,7 +168,7 @@
         },
         {
             "title": "Mercè Labordena",
-            "email": "merce.larbordena@usys.ethz.ch",
+            "email": "merce.labordena@usys.ethz.ch",
             "role": "author"
         }
     ],
