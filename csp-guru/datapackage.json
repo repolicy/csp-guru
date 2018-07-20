@@ -70,7 +70,7 @@
                     },
                     {
                         "name": "Expected_generation",
-                        "description": "yearly power output [GWh/a]"
+                        "description": "yearly power output [GWh/yr]"
                     },
                     {
                         "name": "Load_factor",
@@ -161,7 +161,7 @@
         }
     ],
     "contributors": [
-      {
+        {
             "title": "Johan Lilliestam",
             "email": "johan.lilliestam@usys.ethz.ch",
             "role": "author"
