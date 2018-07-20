@@ -8,4 +8,4 @@ layout: home
 
 {{ description }}
 
-Get it here: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1262406.svg)](https://doi.org/10.5281/zenodo.1262406)
+Get it here: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1318152.svg)](https://doi.org/10.5281/zenodo.1318152)
