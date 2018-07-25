@@ -30,6 +30,8 @@ title: Plant List
 
 <script type="text/javascript">
     $(document).ready( function () {
-        $('#csp-table').DataTable();
+        $('#csp-table').DataTable({
+            "paging": false,
+        });
     } );
 </script>
