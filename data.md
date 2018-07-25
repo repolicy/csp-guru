@@ -3,7 +3,7 @@ layout: page
 title: Plant List
 ---
 
-<table>
+<table id="csp-table">
     <thead>
         <tr>
             <td>Name</td>
@@ -27,3 +27,9 @@ title: Plant List
     {% endfor %}
     </tbody>
 </table>
+
+<script type="text/javascript">
+    $(document).ready( function () {
+        $('#csp-table').DataTable();
+    } );
+</script>
