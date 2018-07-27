@@ -4,7 +4,7 @@ layout: home
 
 <img style="display: block; margin: 0 auto" width="200" src="./images/logo.png" alt="CSP.guru Logo" align="center">
 
-{% assign description = site.data.datapackage["description"] %}
+{% assign description = site.data.datapackage["long_description"] %}
 
 {{ description }}
 
