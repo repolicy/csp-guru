@@ -1,6 +1,6 @@
 # csp.guru website
 
-This site provides and visualises the CSP.guru dataset of concentrated solar power plants.
+This site provides and visualises the CSP.guru dataset of concentrating solar power plants.
 
 ## Installation
 
