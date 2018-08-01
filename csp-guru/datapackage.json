@@ -1,10 +1,10 @@
 {
     "title": "CSP.guru",
     "homepage": "https://csp.guru",
-    "version": "2016-08-30",
+    "version": "2018-05-14",
     "profile": "tabular-data-package",
     "description": "A database of concentrating solar power plants of the world for energy modellers and analysts.",
-    "long_description": "This datasets holds technical and economic data and  analysis on all operating concentrating solar power stations and of stations under construction (larger than 10 MW). For detailed description of the data collection procedure, please see the original article [Lilliestam et al. (2017)](https://doi.org/10.1038/nenergy.2017.94).\n## License and conditions\n\nThe licence of this data allows academic and all non-commercial use if you give appropriate credit, under the [Creative Commons Attribution-NonCommercial 4.0 International license](https://creativecommons.org/licenses/by-nc/4.0/).\n\nFor academic and professional use (presentations, journal articles, reports, etc):\nPlease cite the original source, the paper [Lilliestam et al. (2017)](https://doi.org/10.1038/nenergy.2017.94). Please also link to https://www.csp.guru if possible.\n## Contact\nFor questions or issues get in touch with [Johan Lilliestam](mailto:johan.lilliestam@usys.ethz.ch) or [Richard Thonig](mailto:richard.thonig@usys.ethz.ch).\n## Acknowledgements\nFunding for this work came from a European Research Council Consolidator Grant (grant number 313553).",
+    "long_description": "This datasets holds technical and economic data and  analysis on all operating concentrating solar power stations and of stations under construction (larger than 10 MW). For detailed description of the data collection procedure, please see the original article [Lilliestam et al. (2017)](https://doi.org/10.1038/nenergy.2017.94).\n ##Data Package\n\n We provide tabular data package that consists of a CSV (comma separated variables) for data files and a single JSON file (datapackage.json) to describe the dataset including a schema for data files as described on [Frictionless Data](https://frictionlessdata.io/specs/tabular-data-package/).\n ## License and conditions\n\nThe licence of this data allows academic and all non-commercial use if you give appropriate credit, under the [Creative Commons Attribution-NonCommercial 4.0 International license](https://creativecommons.org/licenses/by-nc/4.0/).\n\nFor academic and professional use (presentations, journal articles, reports, etc):\nPlease cite the original source, the paper [Lilliestam et al. (2017)](https://doi.org/10.1038/nenergy.2017.94). Please also link to https://www.csp.guru if possible.\n## Contact\nFor questions or issues get in touch with [Johan Lilliestam](mailto:johan.lilliestam@usys.ethz.ch) or [Richard Thonig](mailto:richard.thonig@usys.ethz.ch).\n## Acknowledgements\nFunding for the 2016-08-30 version of this work came from a European Research Council Consolidator Grant (grant number 313553), version 2018-05-14 recieved support from the European Union’s Horizon 2020 research and innovation program under grant agreement No 764626.\n ## Archive\n\n All versions of the CSP.guru dataset are archieved at [Zenodo](https://doi.org/10.5281/zenodo.1318151).",
     "resources": [
         {
             "path": "csp-guru.csv",
@@ -13,7 +13,7 @@
             "schema": {
                 "fields": [
                     {
-                        "name": "Title",
+                        "name": "Power_station",
                         "description": "name of the CSP plant"
                     },
                     {
@@ -41,11 +41,11 @@
                         "description": "longitude of the plant"
                     },
                     {
-                        "name": "DNI",
+                        "name": "DNI_[kWh/m2/yr]",
                         "description": "direct normal irradiance (DNI) [kWh/m²/yr], indicates the solar resources"
                     },
                     {
-                        "name": "Year_construction_start",
+                        "name": "Construction_start",
                         "description": "indicates the year when construction started"
                     },
                     {
@@ -53,15 +53,15 @@
                         "description": "distinguishes CSP technologies: Trough, Tower, Hybrid, Fresnel "
                     },
                     {
-                        "name": "Capacity",
+                        "name": "Capacity_[MW]",
                         "description": "nominal capacity of the turbine [MW]"
                     },
                     {
-                        "name": "Storage_capacity",
+                        "name": "Storage_capacity_[h]",
                         "description": " hours the turbine can run on stored heat alone [h]"
                     },
                     {
-                        "name": "Field_size",
+                        "name": "Field_size_[m2]",
                         "description": "the mirror area [㎡]"
                     },
                     {
@@ -69,28 +69,48 @@
                         "description": "cooling technology: dry, wet, or hybrid"
                     },
                     {
-                        "name": "Expected_generation",
-                        "description": "yearly power output [GWh/yr]"
+                        "name": "Expected_generation_[GWh/yr]",
+                        "description": "expected yearly power output [GWh/yr]"
                     },
                     {
                         "name": "Load_factor",
                         "description": "percentage of maximum yearly power output, increases with storage"
                     },
                     {
-                        "name": "Total_cost",
-                        "description": "in thousand local currency"
+                        "name": "Total_cost_[million_currency;non-deflated]",
+                        "description": "construction cost in million local currency, non deflated"
                     },
                     {
-                        "name": "Specific_investment_cost_2015USD",
-                        "description": "investment cost per MW [2015 USD], discounted"
+                        "name": "Total_cost_[million_USD;non-deflated]",
+                        "description": "construction cost converted to million US Dollar, non deflated"
                     },
                     {
-                        "name": "Specific_investment_cost_2015EUR",
-                        "description": "investment cost per MW [2015 EURO], discounted"
+                        "name": "Total_cost_[million_USD2017;deflated]",
+                        "description": "construction cost in million US Dollar, deflated from Year_operational; if station under development or constrution then deflated from 2017"
+                    },
+                    {
+                        "name": "Specific_investment_cost_[USD2017/kW;deflated]",
+                        "description": "investment cost per MW [2017 USD], deflated from Year_operational; if station under development or constrution then deflated from 2017"
+                    },
+                    {
+                        "name": "Total_cost_[million_EURO;non-deflated]",
+                        "description": "construction cost in million EURO, non deflated"
+                    },
+                    {
+                        "name": "Total_cost_[million_EURO2017;deflated]",
+                        "description": "construction cost in million  EURO, deflated from Year_operational; if station under development or constrution then deflated from 2017"
+                    },
+                    {
+                        "name": "Specific_investment_cost_[EURO2017/kW;deflated]",
+                        "description": "investment cost per KW [2017 EURO], deflated from Year_operational; if station under development or constrution then deflated from 2017"
                     },
                     {
                         "name": "Developer",
                         "description": "company that developed the project"
+                    },
+                    {
+                        "name": "EPC",
+                        "description": "company that actually build the CSP plant: Engineering-Procurement-Construction"
                     },
                     {
                         "name": "HCE_manufacturer",
@@ -105,35 +125,43 @@
                         "description": "how the owner makes money from the generated electricity: PPA, FiT, spot sales"
                     },
                     {
-                        "name": "Remuneration",
+                        "name": "Remuneration_[currency/kWh]",
                         "description": "indicates the level of FiT or PPA [ct/kWh], local currency"
                     },
                     {
-                        "name": "Remuneration_2015USD",
-                        "description": "indicates the level of FiT or PPA [ct/kWh], 2015 USD "
+                        "name": "Remuneration_[USD/kWh;non_deflated]",
+                        "description": "indicates the level of FiT or PPA [ct/kWh], non deflated"
                     },
                     {
-                        "name": "Remuneration_2015EUR",
-                        "description": "indicates the level of FiT or PPA in [ct/kWh], 2015 EURO "
+                        "name": "Remuneration_[USD2017/kWh;deflated]",
+                        "description": "indicates the level of FiT or PPA [ct/kWh], deflated from Year_operational; if station under development or constrution then deflated from 2017"
                     },
                     {
-                        "name": "LCOE_5_2015USD",
-                        "description": "levelized cost of electricity with 5% weighted average cost of capital [ct/kWh], 2015 USD discounted"
+                        "name": "Remuneration_[EURO/kWh;non_deflated]",
+                        "description": "indicates the level of FiT or PPA [ct/kWh], non deflated"
                     },
                     {
-                        "name": "LCOE_10_2015USD",
-                        "description": "levelized cost of electricity with 10% weighted average cost of capital [ct/kWh], 2015 USD discounted"
+                        "name": "Remuneration_[EURO2017/kWh;deflated]",
+                        "description": "indicates the level of FiT or PPA [ct/kWh], deflated from Year_operational; if station under development or constrution then deflated from 2017 "
                     },
                     {
-                        "name": "LCOE_5_2015EUR",
-                        "description": "levelized cost of electricity with 5% weighted average cost of capital [ct/kWh], 2015 EURO discounted"
+                        "name": "LCOE_5_25_[USD2017]",
+                        "description": "levelized cost of electricity with 5% weighted average cost of capital [USD2017ct/kWh] and a 25 year payback period, cap dependent O&M, deflated from Year_operational; if station under development or constrution then deflated from 2017"
                     },
                     {
-                        "name": "LCOE_10_2015EUR",
-                        "description": "levelized cost of electricity with 10% weighted average cost of capital [ct/kWh], 2015 EURO discounted"
+                        "name": "LCOE_10_25_[USD2017]",
+                        "description": "levelized cost of electricity with 10% weighted average cost of capital [USD2017ct/kWh] and a 25 year payback period, cap dependent O&M, deflated from Year_operational; if station under development or constrution then deflated from 2017"
                     },
                     {
-                        "name": "Other_support",
+                        "name": "LCOE_5_25_[EURO2017]",
+                        "description": "levelized cost of electricity with 5% weighted average cost of capital [EURO2017ct/kWh] and a 25 year payback period, deflated from Year_operational; if station under development or constrution then deflated from 2017"
+                    },
+                    {
+                        "name": "LCOE_10_25_[EURO2017]",
+                        "description": "levelized cost of electricity with 10% weighted average cost of capital [EURO2017ct/kWh] and a 25 year payback period, deflated from Year_operational; if station under development or constrution then deflated from 2017"
+                    },
+                    {
+                        "name": "Concessional_funding;other_support",
                         "description": "financial assistance to project developer: tax credits, cheap credits, etc."
                     },
                     {
@@ -141,20 +169,12 @@
                         "description": "owner of the CSP plant"
                     },
                     {
-                        "name": "Support_duration",
+                        "name": "PPA_or_support_duration_[yr]",
                         "description": "duration of PPA, FiT, etc. [yr]"
                     },
                     {
-                        "name": "Enipedia_ID",
-                        "description": "https://enipedia.org/wiki/Enipedia"
-                    },
-                    {
-                        "name": "SolarPACES_ID",
-                        "description": "SolarPACES_ID/NREL: https://www.nrel.gov/csp/solarpaces/index.cfm "
-                    },
-                    {
                         "name": "Sources",
-                        "description": "indicates where the information for each plant was taken from"
+                        "description": "indicates where the information on each plant was retrieved from, Lillestam et al 2017: Nature energy indicates the 2016-08-30 version of the CSP.guru dataset"
                     }
                 ]
             }
@@ -164,6 +184,11 @@
         {
             "title": "Johan Lilliestam",
             "email": "johan.lilliestam@usys.ethz.ch",
+            "role": "author"
+        },
+        {
+            "title": "Lana Laura Ollier",
+            "email": "lana.ollier@usys.ethz.ch",
             "role": "author"
         },
         {
