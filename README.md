@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/repolicy/csp-guru.svg?branch=master)](https://travis-ci.org/repolicy/csp-guru)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1318152.svg)](https://doi.org/10.5281/zenodo.1318152)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1318151.svg)](https://doi.org/10.5281/zenodo.1318151)
 
 # Welcome to csp.guru!
 
