@@ -1,0 +1,182 @@
+{
+    "title": "CSP.guru",
+    "homepage": "https://csp.guru",
+    "version": "2016-08-30",
+    "profile": "tabular-data-package",
+    "description": "A database of concentrating solar power plants of the world for energy modellers and analysts.",
+    "long_description": "This datasets holds technical and economic data and  analysis on all operating concentrating solar power stations and of stations under construction (larger than 10 MW). For detailed description of the data collection procedure, please see the original article [Lilliestam et al. (2017)](https://doi.org/10.1038/nenergy.2017.94).\n## License and conditions\n\nThe licence of this data allows academic and all non-commercial use if you give appropriate credit, under the [Creative Commons Attribution-NonCommercial 4.0 International license](https://creativecommons.org/licenses/by-nc/4.0/).\n\nFor academic and professional use (presentations, journal articles, reports, etc):\nPlease cite the original source, the paper [Lilliestam et al. (2017)](https://doi.org/10.1038/nenergy.2017.94). Please also link to https://www.csp.guru if possible.\n## Contact\nFor questions or issues get in touch with [Johan Lilliestam](mailto:johan.lilliestam@usys.ethz.ch) or [Richard Thonig](mailto:richard.thonig@usys.ethz.ch).\n## Acknowledgements\nFunding for this work came from a European Research Council Consolidator Grant (grant number 313553).",
+    "resources": [
+        {
+            "path": "csp-guru.csv",
+            "profile": "tabular-data-resource",
+            "hash": "0ed89d2fe7c96615ad70d79ce64693a8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "Title",
+                        "description": "name of the CSP plant"
+                    },
+                    {
+                        "name": "Year_operational",
+                        "description": "indicates the year of the first power output"
+                    },
+                    {
+                        "name": "Status",
+                        "description": "distinguishes if a CSP plant is operational or under construction"
+                    },
+                    {
+                        "name": "Country",
+                        "description": "country where the CSP plant is located"
+                    },
+                    {
+                        "name": "City",
+                        "description": "city or municipality where the CSP plant is located"
+                    },
+                    {
+                        "name": "Lat",
+                        "description": "latitude of the plant"
+                    },
+                    {
+                        "name": "Lon",
+                        "description": "longitude of the plant"
+                    },
+                    {
+                        "name": "DNI",
+                        "description": "direct normal irradiance (DNI) [kWh/m²/yr], indicates the solar resources"
+                    },
+                    {
+                        "name": "Year_construction_start",
+                        "description": "indicates the year when construction started"
+                    },
+                    {
+                        "name": "Technology",
+                        "description": "distinguishes CSP technologies: Trough, Tower, Hybrid, Fresnel "
+                    },
+                    {
+                        "name": "Capacity",
+                        "description": "nominal capacity of the turbine [MW]"
+                    },
+                    {
+                        "name": "Storage_capacity",
+                        "description": " hours the turbine can run on stored heat alone [h]"
+                    },
+                    {
+                        "name": "Field_size",
+                        "description": "the mirror area [㎡]"
+                    },
+                    {
+                        "name": "Cooling",
+                        "description": "cooling technology: dry, wet, or hybrid"
+                    },
+                    {
+                        "name": "Expected_generation",
+                        "description": "yearly power output [GWh/yr]"
+                    },
+                    {
+                        "name": "Load_factor",
+                        "description": "percentage of maximum yearly power output, increases with storage"
+                    },
+                    {
+                        "name": "Total_cost",
+                        "description": "in thousand local currency"
+                    },
+                    {
+                        "name": "Specific_investment_cost_2015USD",
+                        "description": "investment cost per MW [2015 USD], discounted"
+                    },
+                    {
+                        "name": "Specific_investment_cost_2015EUR",
+                        "description": "investment cost per MW [2015 EURO], discounted"
+                    },
+                    {
+                        "name": "Developer",
+                        "description": "company that developed the project"
+                    },
+                    {
+                        "name": "HCE_manufacturer",
+                        "description": "heat collecting element (HCE) manufacturer"
+                    },
+                    {
+                        "name": "SCA_manufacturer",
+                        "description": "solar collector assemblies (SCA) manufacturer"
+                    },
+                    {
+                        "name": "Financed_through",
+                        "description": "how the owner makes money from the generated electricity: PPA, FiT, spot sales"
+                    },
+                    {
+                        "name": "Remuneration",
+                        "description": "indicates the level of FiT or PPA [ct/kWh], local currency"
+                    },
+                    {
+                        "name": "Remuneration_2015USD",
+                        "description": "indicates the level of FiT or PPA [ct/kWh], 2015 USD "
+                    },
+                    {
+                        "name": "Remuneration_2015EUR",
+                        "description": "indicates the level of FiT or PPA in [ct/kWh], 2015 EURO "
+                    },
+                    {
+                        "name": "LCOE_5_2015USD",
+                        "description": "levelized cost of electricity with 5% weighted average cost of capital [ct/kWh], 2015 USD discounted"
+                    },
+                    {
+                        "name": "LCOE_10_2015USD",
+                        "description": "levelized cost of electricity with 10% weighted average cost of capital [ct/kWh], 2015 USD discounted"
+                    },
+                    {
+                        "name": "LCOE_5_2015EUR",
+                        "description": "levelized cost of electricity with 5% weighted average cost of capital [ct/kWh], 2015 EURO discounted"
+                    },
+                    {
+                        "name": "LCOE_10_2015EUR",
+                        "description": "levelized cost of electricity with 10% weighted average cost of capital [ct/kWh], 2015 EURO discounted"
+                    },
+                    {
+                        "name": "Other_support",
+                        "description": "financial assistance to project developer: tax credits, cheap credits, etc."
+                    },
+                    {
+                        "name": "Owner",
+                        "description": "owner of the CSP plant"
+                    },
+                    {
+                        "name": "Support_duration",
+                        "description": "duration of PPA, FiT, etc. [yr]"
+                    },
+                    {
+                        "name": "Enipedia_ID",
+                        "description": "https://enipedia.org/wiki/Enipedia"
+                    },
+                    {
+                        "name": "SolarPACES_ID",
+                        "description": "SolarPACES_ID/NREL: https://www.nrel.gov/csp/solarpaces/index.cfm "
+                    },
+                    {
+                        "name": "Sources",
+                        "description": "indicates where the information for each plant was taken from"
+                    }
+                ]
+            }
+        }
+    ],
+    "contributors": [
+        {
+            "title": "Johan Lilliestam",
+            "email": "johan.lilliestam@usys.ethz.ch",
+            "role": "author"
+        },
+        {
+            "title": "Mercè Labordena",
+            "email": "merce.labordena@usys.ethz.ch",
+            "role": "author"
+        }
+    ],
+    "licenses": [
+        {
+            "name": "CC BY-NC 4.0",
+            "path": "https://creativecommons.org/licenses/by-nc/4.0/",
+            "title": "Attribution-NonCommercial 4.0 International"
+        }
+    ]
+}
