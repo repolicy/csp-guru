@@ -92,15 +92,15 @@
                         "description": "investment cost per MW [2017 USD], deflated from Year_operational using the Worldbank's GDP deflator; if station under development or constrution then deflated from 2017"
                     },
                     {
-                        "name": "Total_cost_[million_EURO;non-deflated]",
+                        "name": "Total_cost_[million_Euro;non-deflated]",
                         "description": "construction cost in million Euro, non-deflated"
                     },
                     {
-                        "name": "Total_cost_[million_EURO2017;deflated]",
+                        "name": "Total_cost_[million_Euro2017;deflated]",
                         "description": "construction cost in million Euro, deflated from Year_operational using the Worldbank's GDP deflator; if station under development or constrution then deflated from 2017"
                     },
                     {
-                        "name": "Specific_investment_cost_[EURO2017/kW;deflated]",
+                        "name": "Specific_investment_cost_[Euro2017/kW;deflated]",
                         "description": "investment cost per kW [2017 Euro], deflated from Year_operational using the Worldbank's GDP deflator; if station under development or constrution then deflated from 2017"
                     },
                     {
@@ -136,27 +136,27 @@
                         "description": "indicates the level of FIT or PPA in [USD2017/kWh], deflated from Year_operational using the Worldbank's GDP deflator; if station under development or constrution then deflated from 2017"
                     },
                     {
-                        "name": "Remuneration_[EURO/kWh;non_deflated]",
+                        "name": "Remuneration_[Euro/kWh;non_deflated]",
                         "description": "indicates the level of FIT or PPA in [Euro/kWh], non-deflated"
                     },
                     {
-                        "name": "Remuneration_[EURO2017/kWh;deflated]",
+                        "name": "Remuneration_[Euro2017/kWh;deflated]",
                         "description": "indicates the level of FIT or PPA in [Euro2017/kWh], deflated from Year_operational using the Worldbank's GDP deflator; if station under development or constrution then deflated from 2017 "
                     },
                     {
-                        "name": "LCOE_5_25_[USD2017]",
+                        "name": "LCOE_5_25_[USD2017/kWh]",
                         "description": "levelised cost of electricity with 5% weighted average cost of capital [USD2017/kWh] and a 25 year payback period, cap dependent O&M, deflated from Year_operational using the Worldbank's GDP deflator; if station under development or constrution then deflated from 2017"
                     },
                     {
-                        "name": "LCOE_10_25_[USD2017]",
+                        "name": "LCOE_10_25_[USD2017/kWh]",
                         "description": "levelised cost of electricity with 10% weighted average cost of capital [USD2017/kWh] and a 25 year payback period, cap dependent O&M, deflated from Year_operational using the Worldbank's GDP deflator; if station under development or constrution then deflated from 2017"
                     },
                     {
-                        "name": "LCOE_5_25_[EURO2017]",
+                        "name": "LCOE_5_25_[Euro2017/kWh]",
                         "description": "levelised cost of electricity with 5% weighted average cost of capital [Euro2017/kWh] and a 25 year payback period, deflated from Year_operational using the Worldbank's GDP deflator; if station under development or constrution then deflated from 2017"
                     },
                     {
-                        "name": "LCOE_10_25_[EURO2017]",
+                        "name": "LCOE_10_25_[Euro2017/kWh]",
                         "description": "levelised cost of electricity with 10% weighted average cost of capital [Euro2017/kWh] and a 25 year payback period, deflated from Year_operational using the Worldbank's GDP deflator; if station under development or constrution then deflated from 2017"
                     },
                     {
