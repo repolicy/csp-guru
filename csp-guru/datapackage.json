@@ -13,167 +13,208 @@
                 "fields": [
                     {
                         "name": "Power_station",
-                        "description": "name of the CSP plant"
+                        "description": "name of the CSP plant",
+                        "type": "string"
                     },
                     {
                         "name": "Year_operational",
-                        "description": "indicates the year of the first power output"
+                        "description": "indicates the year of the first power output",
+                        "type": "integer"
                     },
                     {
                         "name": "Status",
-                        "description": "distinguishes if a CSP plant is operational or under construction"
+                        "description": "distinguishes if a CSP plant is operational or under construction",
+                        "type": "string"
                     },
                     {
                         "name": "Country",
-                        "description": "country where the CSP plant is located"
+                        "description": "country where the CSP plant is located",
+                        "type": "string"
                     },
                     {
                         "name": "City",
-                        "description": "nearest city or municipality to the CSP plant site"
+                        "description": "nearest city or municipality to the CSP plant site",
+                        "type": "string"
                     },
                     {
                         "name": "Lat",
-                        "description": "latitude of the plant"
+                        "description": "latitude of the plant",
+                        "type": "number"
                     },
                     {
                         "name": "Lon",
-                        "description": "longitude of the plant"
+                        "description": "longitude of the plant",
+                        "type": "number"
                     },
                     {
                         "name": "DNI_[kWh/m2/yr]",
-                        "description": "direct normal irradiance (DNI) [kWh/m²/yr], indicates the solar resource"
+                        "description": "direct normal irradiance (DNI) [kWh/m²/yr], indicates the solar resource",
+                        "type": "number"
                     },
                     {
                         "name": "Construction_start",
-                        "description": "indicates the year when construction started"
+                        "description": "indicates the year when construction started",
+                        "type": "integer"
                     },
                     {
                         "name": "Technology",
-                        "description": "distinguishes CSP technologies: Trough, Tower, Hybrid, Fresnel "
+                        "description": "distinguishes CSP technologies: Trough, Tower, Hybrid, Fresnel",
+                        "type": "string"
                     },
                     {
                         "name": "Capacity_[MW]",
-                        "description": "nominal capacity of the turbine [MW]"
+                        "description": "nominal capacity of the turbine [MW]",
+                        "type": "number"
                     },
                     {
                         "name": "Storage_capacity_[h]",
-                        "description": " hours the turbine can run on full load using stored heat alone [hours]"
+                        "description": " hours the turbine can run on full load using stored heat alone [hours]",
+                        "type": "number"
                     },
                     {
                         "name": "Field_size_[m2]",
-                        "description": "the mirror area [㎡]"
+                        "description": "the mirror area [㎡]",
+                        "type": "integer"
                     },
                     {
                         "name": "Cooling",
-                        "description": "cooling technology: dry, wet, or hybrid"
+                        "description": "cooling technology: dry, wet, or hybrid",
+                        "type": "string"
                     },
                     {
                         "name": "Expected_generation_[GWh/yr]",
-                        "description": "expected yearly power output [GWh/year]"
+                        "description": "expected yearly power output [GWh/year]",
+                        "type": "number"
                     },
                     {
                         "name": "Load_factor",
-                        "description": "actual yearly generation divided by maximum possible yearly generation"
+                        "description": "actual yearly generation divided by maximum possible yearly generation",
+                        "type": "number"
                     },
                     {
                         "name": "Total_cost_[million_currency;non-deflated]",
-                        "description": "construction cost in million local currency, non-deflated"
+                        "description": "construction cost in million local currency, non-deflated",
+                        "type": "number"
                     },
                     {
                         "name": "Total_cost_[million_USD;non-deflated]",
-                        "description": "construction cost converted to million US Dollar, non-deflated"
+                        "description": "construction cost converted to million US Dollar, non-deflated",
+                        "type": "number"
                     },
                     {
                         "name": "Total_cost_[million_USD2017;deflated]",
-                        "description": "construction cost in million US Dollar, deflated from Year_operational using the Worldbank's GDP deflator; if station under development or constrution then deflated from 2017"
+                        "description": "construction cost in million US Dollar, deflated from Year_operational using the Worldbank's GDP deflator; if station under development or constrution then deflated from 2017",
+                        "type": "number"
                     },
                     {
                         "name": "Specific_investment_cost_[USD2017/kW;deflated]",
-                        "description": "investment cost per MW [2017 USD], deflated from Year_operational using the Worldbank's GDP deflator; if station under development or constrution then deflated from 2017"
+                        "description": "investment cost per MW [2017 USD], deflated from Year_operational using the Worldbank's GDP deflator; if station under development or constrution then deflated from 2017",
+                        "type": "number"
                     },
                     {
                         "name": "Total_cost_[million_Euro;non-deflated]",
-                        "description": "construction cost in million Euro, non-deflated"
+                        "description": "construction cost in million Euro, non-deflated",
+                        "type": "number"
                     },
                     {
                         "name": "Total_cost_[million_Euro2017;deflated]",
-                        "description": "construction cost in million Euro, deflated from Year_operational using the Worldbank's GDP deflator; if station under development or constrution then deflated from 2017"
+                        "description": "construction cost in million Euro, deflated from Year_operational using the Worldbank's GDP deflator; if station under development or constrution then deflated from 2017",
+                        "type": "number"
                     },
                     {
                         "name": "Specific_investment_cost_[Euro2017/kW;deflated]",
-                        "description": "investment cost per kW [2017 Euro], deflated from Year_operational using the Worldbank's GDP deflator; if station under development or constrution then deflated from 2017"
+                        "description": "investment cost per kW [2017 Euro], deflated from Year_operational using the Worldbank's GDP deflator; if station under development or constrution then deflated from 2017",
+                        "type": "number"
                     },
                     {
                         "name": "Developer",
-                        "description": "company that developed the project"
+                        "description": "company that developed the project",
+                        "type": "string"
                     },
                     {
                         "name": "EPC",
-                        "description": "company responsible for engineering, procurement and construction of the CSP plant"
+                        "description": "company responsible for engineering, procurement and construction of the CSP plant",
+                        "type": "string"
                     },
                     {
                         "name": "HCE_manufacturer",
-                        "description": "heat collecting element (HCE) manufacturer"
+                        "description": "heat collecting element (HCE) manufacturer",
+                        "type": "string"
                     },
                     {
                         "name": "SCA_manufacturer",
-                        "description": "solar collector assemblies (SCA) manufacturer"
+                        "description": "solar collector assemblies (SCA) manufacturer",
+                        "type": "string"
                     },
                     {
                         "name": "Financed_through",
-                        "description": "how the owner makes money from the generated electricity: power purchase agreement (PPA), feed-in tariff (FIT), spot market sales"
+                        "description": "how the owner makes money from the generated electricity: power purchase agreement (PPA), feed-in tariff (FIT), spot market sales",
+                        "type": "string"
                     },
                     {
                         "name": "Remuneration_[currency/kWh]",
-                        "description": "indicates the level of FIT or PPA in [currency/kWh], local currency"
+                        "description": "indicates the level of FIT or PPA in [currency/kWh], local currency",
+                        "type": "number"
                     },
                     {
                         "name": "Remuneration_[USD/kWh;non_deflated]",
-                        "description": "indicates the level of FIT or PPA in [USD/kWh], non-deflated"
+                        "description": "indicates the level of FIT or PPA in [USD/kWh], non-deflated",
+                        "type": "number"
                     },
                     {
                         "name": "Remuneration_[USD2017/kWh;deflated]",
-                        "description": "indicates the level of FIT or PPA in [USD2017/kWh], deflated from Year_operational using the Worldbank's GDP deflator; if station under development or constrution then deflated from 2017"
+                        "description": "indicates the level of FIT or PPA in [USD2017/kWh], deflated from Year_operational using the Worldbank's GDP deflator; if station under development or constrution then deflated from 2017",
+                        "type": "number"
                     },
                     {
                         "name": "Remuneration_[Euro/kWh;non_deflated]",
-                        "description": "indicates the level of FIT or PPA in [Euro/kWh], non-deflated"
+                        "description": "indicates the level of FIT or PPA in [Euro/kWh], non-deflated",
+                        "type": "number"
                     },
                     {
                         "name": "Remuneration_[Euro2017/kWh;deflated]",
-                        "description": "indicates the level of FIT or PPA in [Euro2017/kWh], deflated from Year_operational using the Worldbank's GDP deflator; if station under development or constrution then deflated from 2017 "
+                        "description": "indicates the level of FIT or PPA in [Euro2017/kWh], deflated from Year_operational using the Worldbank's GDP deflator; if station under development or constrution then deflated from 2017 ",
+                        "type": "number"
                     },
                     {
                         "name": "LCOE_5_25_[USD2017/kWh]",
-                        "description": "levelised cost of electricity with 5% weighted average cost of capital [USD2017/kWh] and a 25 year payback period, cap dependent O&M, deflated from Year_operational using the Worldbank's GDP deflator; if station under development or constrution then deflated from 2017"
+                        "description": "levelised cost of electricity with 5% weighted average cost of capital [USD2017/kWh] and a 25 year payback period, cap dependent O&M, deflated from Year_operational using the Worldbank's GDP deflator; if station under development or constrution then deflated from 2017",
+                        "type": "number"
                     },
                     {
                         "name": "LCOE_10_25_[USD2017/kWh]",
-                        "description": "levelised cost of electricity with 10% weighted average cost of capital [USD2017/kWh] and a 25 year payback period, cap dependent O&M, deflated from Year_operational using the Worldbank's GDP deflator; if station under development or constrution then deflated from 2017"
+                        "description": "levelised cost of electricity with 10% weighted average cost of capital [USD2017/kWh] and a 25 year payback period, cap dependent O&M, deflated from Year_operational using the Worldbank's GDP deflator; if station under development or constrution then deflated from 2017",
+                        "type": "number"
                     },
                     {
                         "name": "LCOE_5_25_[Euro2017/kWh]",
-                        "description": "levelised cost of electricity with 5% weighted average cost of capital [Euro2017/kWh] and a 25 year payback period, deflated from Year_operational using the Worldbank's GDP deflator; if station under development or constrution then deflated from 2017"
+                        "description": "levelised cost of electricity with 5% weighted average cost of capital [Euro2017/kWh] and a 25 year payback period, deflated from Year_operational using the Worldbank's GDP deflator; if station under development or constrution then deflated from 2017",
+                        "type": "number"
                     },
                     {
                         "name": "LCOE_10_25_[Euro2017/kWh]",
-                        "description": "levelised cost of electricity with 10% weighted average cost of capital [Euro2017/kWh] and a 25 year payback period, deflated from Year_operational using the Worldbank's GDP deflator; if station under development or constrution then deflated from 2017"
+                        "description": "levelised cost of electricity with 10% weighted average cost of capital [Euro2017/kWh] and a 25 year payback period, deflated from Year_operational using the Worldbank's GDP deflator; if station under development or constrution then deflated from 2017",
+                        "type": "number"
                     },
                     {
                         "name": "Concessional_funding;other_support",
-                        "description": "financial assistance to project developer: tax credits, soft loans, etc."
+                        "description": "financial assistance to project developer: tax credits, soft loans, etc.",
+                        "type": "string"
                     },
                     {
                         "name": "Owner",
-                        "description": "owner of the CSP plant"
+                        "description": "owner of the CSP plant",
+                        "type": "string"
                     },
                     {
                         "name": "PPA_or_support_duration_[yr]",
-                        "description": "duration of PPA, FIT, etc. [years]"
+                        "description": "duration of PPA, FIT, etc. [years]",
+                        "type": "integer"
                     },
                     {
                         "name": "Sources",
-                        "description": "indicates where the information on each plant was retrieved from, Lilliestam et al 2017: Nature energy; indicates the 2016-08-30 version of the CSP.guru dataset"
+                        "description": "indicates where the information on each plant was retrieved from, Lilliestam et al 2017: Nature energy; indicates the 2016-08-30 version of the CSP.guru dataset",
+                        "type": "string"
                     }
                 ]
             }
