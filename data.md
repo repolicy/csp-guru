@@ -15,13 +15,13 @@ title: Plant List
         </tr>
     </thead>
     <tbody>
-    {% for plant in site.data.csp-guru %}
+    {% for plant in site.data.csp-guru-web-fix %}
         <tr>
             <td>{{ plant.Power_station }}</td>
             <td>{{ plant.Year_operational }}</td>
             <td>{{ plant.Status }}</td>
             <td>{{ plant.Technology }}</td>
-            <td>{{ plant.Capacity_[MW] }}</td>
+            <td>{{ plant.Capacity_MW }}</td>
             <td>{{ plant.Country }}</td>
         </tr>
     {% endfor %}
