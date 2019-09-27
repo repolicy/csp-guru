@@ -205,6 +205,16 @@
             "title": "Richard Thonig",
             "email": "richard.thonig@usys.ethz.ch",
             "role": "author"
+        },
+        {
+            "title": "Tim Tröndle",
+            "email": "tim.troendle@usys.ethz.ch",
+            "role": "maintainer"
+        },
+        {
+            "title": "Richard Thonig",
+            "email": "richard.thonig@usys.ethz.ch",
+            "role": "maintainer"
         }
     ],
     "licenses": [
