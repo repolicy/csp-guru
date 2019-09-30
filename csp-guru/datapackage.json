@@ -153,7 +153,7 @@
                     },
                     {
                         "name": "EPC_country",
-                        "description": "company responsible for engineering, procurement and construction of the CSP plant",
+                        "description": "Country of origin of the company responsible for engineering, procurement and construction of the CSP plant",
                         "type": "string"
                     },
                     {
@@ -163,7 +163,7 @@
                     },
                     {
                         "name": "Receiver_manufacturer_country",
-                        "description": "Country of origin of the HCE manufacturer",
+                        "description": "Country of origin of the country of origin of the HCE manufacturer",
                         "type": "string"
                     },
                     {
