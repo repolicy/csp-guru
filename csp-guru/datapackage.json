@@ -94,7 +94,7 @@
                     {
                         "name": "Cost_currency",
                         "description": "Indicates the currency used for total cost",
-                        "type": "number"
+                        "type": "string"
                     },
                     {
                         "name": "Total_cost_[million_currency;non-deflated]",
@@ -109,7 +109,7 @@
                     {
                       "name": "Support_currency",
                       "description": "Indicates the currency used for total cost",
-                      "type": "number"
+                      "type": "string"
                     },
                     {
                         "name": "Remuneration_[currency/kWh]",
@@ -134,7 +134,7 @@
                     {
                         "name": "PPA_or_support_duration_[yr]",
                         "description": "duration of PPA, FIT, etc. [years]",
-                        "type": "integer"
+                        "type": "string"
                     },
                     {
                         "name": "Developer",
