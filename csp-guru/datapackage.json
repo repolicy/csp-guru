@@ -47,8 +47,8 @@
                         "type": "number"
                     },
                     {
-                        "name": "DNI_[kWh/m2/yr]",
-                        "description": "direct normal irradiance (DNI) [kWh/m²/yr], indicates the solar resource",
+                        "name": "DNI_kWh_per_m2_per_yr",
+                        "description": "direct normal irradiance (DNI) in kWh/m²/yr, indicates the solar resource",
                         "type": "number"
                     },
                     {
@@ -62,18 +62,18 @@
                         "type": "string"
                     },
                     {
-                        "name": "Capacity_[MW]",
-                        "description": "nominal capacity of the turbine [MW]",
+                        "name": "Capacity_MW",
+                        "description": "nominal capacity of the turbine  in MW",
                         "type": "number"
                     },
                     {
-                        "name": "Storage_capacity_[h]",
-                        "description": " hours the turbine can run on full load using stored heat alone [hours]",
+                        "name": "Storage_capacity_h",
+                        "description": " hours the turbine can run on full load using stored heat alone in hours",
                         "type": "number"
                     },
                     {
-                        "name": "Field_size_[m2]",
-                        "description": "the mirror area [㎡]",
+                        "name": "Field_size_m2",
+                        "description": "the mirror area ㎡",
                         "type": "integer"
                     },
                     {
@@ -82,8 +82,8 @@
                         "type": "string"
                     },
                     {
-                        "name": "Expected_generation_[GWh/yr]",
-                        "description": "expected yearly power output [GWh/year]",
+                        "name": "Expected_generation_GWh_per_yr",
+                        "description": "expected yearly power output GWh per year",
                         "type": "number"
                     },
                     {
@@ -97,7 +97,7 @@
                         "type": "string"
                     },
                     {
-                        "name": "Total_cost_[million_currency;non-deflated]",
+                        "name": "Total_cost_million_currency_non-deflated",
                         "description": "construction cost in million local currency, non-deflated",
                         "type": "number"
                     },
@@ -112,28 +112,28 @@
                       "type": "string"
                     },
                     {
-                        "name": "Remuneration_[currency/kWh]",
-                        "description": "indicates the level of FIT or PPA in [currency/kWh], local currency in the year financing was announced",
+                        "name": "Remuneration_currency_per_kWh",
+                        "description": "indicates the level of FIT or PPA in currency per kWh, local currency in the year financing was announced",
                         "type": "number"
                     },
                     {
-                        "name": "Remuneration_[USD2018/kWh;deflated]",
-                        "description": "indicates the level of FIT or PPA in [Euro2018/kWh], deflated from Year_operational using the Worldbank's GDP deflator; if station under development or constrution then deflated from 2017 ",
+                        "name": "Remuneration_USD2018_per_kWh_deflated",
+                        "description": "indicates the level of FIT or PPA in Euro2018 per kWh, deflated from Year_operational using the Worldbank's GDP deflator; if station under development or constrution then deflated from 2017 ",
                         "type": "number"
                     },
                     {
-                        "name": "LCOE_5_25_[USD2018/kWh]",
-                        "description": "levelised cost of electricity with 5% weighted average cost of capital [USD2017/kWh] and a 25 year payback period, cap dependent O&M, deflated from Year_operational using the Worldbank's GDP deflator; if station under development or constrution then deflated from 2018",
+                        "name": "LCOE_5_25_USD2018_per_kWh",
+                        "description": "levelised cost of electricity with 5% weighted average cost of capital USD2017/kWh and a 25 year payback period, cap dependent O&M, deflated from Year_operational using the Worldbank's GDP deflator; if station under development or constrution then deflated from 2018",
                         "type": "number"
                     },
                     {
-                        "name": "Concessional_funding;other_support",
+                        "name": "Concessional_funding-other_support",
                         "description": "financial assistance to project developer: tax credits, soft loans, etc.",
                         "type": "string"
                     },
                     {
-                        "name": "PPA_or_support_duration_[yr]",
-                        "description": "duration of PPA, FIT, etc. [years]",
+                        "name": "PPA_or_support_duration_yr",
+                        "description": "duration of PPA, FIT, etc.in years",
                         "type": "number"
                     },
                     {
