@@ -134,7 +134,7 @@
                     {
                         "name": "PPA_or_support_duration_[yr]",
                         "description": "duration of PPA, FIT, etc. [years]",
-                        "type": "string"
+                        "type": "number"
                     },
                     {
                         "name": "Developer",
