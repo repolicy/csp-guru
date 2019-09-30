@@ -4,7 +4,7 @@
     "version": "2019-09-01",
     "profile": "tabular-data-package",
     "description": "A database of concentrating solar power plants of the world for energy modellers and analysts.",
-    "long_description": "This datasets holds technical, economic, financial, and industrial data on all operating concentrating solar power stations and of stations under construction (larger than 10 MW). For detailed description of the data collection procedure, please see the original article [Lilliestam et al. (2017)](https://doi.org/10.1038/nenergy.2017.94).\n\n## Data Package\n\nWe provide the data in form of a [tabular data package](https://frictionlessdata.io/specs/tabular-data-package/) that consists of a CSV (comma separated values) file holding the actual data and a single JSON file (`datapackage.json`) holding the metadata.\n\n## License and conditions\n\nThe licence of this data allows academic and all non-commercial use if you give appropriate credit, under the [Creative Commons Attribution-NonCommercial 4.0 International license](https://creativecommons.org/licenses/by-nc/4.0/).\n\nFor academic and professional use (presentations, journal articles, reports, etc):\nPlease cite the original source, the paper [Lilliestam et al. (2017)](https://doi.org/10.1038/nenergy.2017.94). Please also link to https://www.csp.guru if possible.\n\n## Contact\n\nFor questions or issues get in touch with [Johan Lilliestam](mailto:johan.lilliestam@usys.ethz.ch) or [Richard Thonig](mailto:richard.thonig@usys.ethz.ch).\n## Acknowledgements\nFunding for the 2016-08-30 version of this work came from a European Research Council Consolidator Grant [DESERTECTION (grant number 313553)](https://cordis.europa.eu/project/rcn/106709_de.html), version 2018-05-14 received support from the European Union Horizon 2020 research and innovation program [MUSTEC (grant agreement No 764626) ](https://cordis.europa.eu/project/rcn/211264_en.html) .\n\n## Archive\n\nAll versions of the CSP.guru dataset are archived at [Zenodo](https://doi.org/10.5281/zenodo.1318151). \n\n## This version\n The data collection for this version of CSP guru has been conducted by Johan Lilliestam and Richard Thonig. It is based on the May 2018 Version of the csp.guru dataset ( https://doi.org/10.5281/zenodo.1342716 ) by Johan Lilliestam; Mercè Labordena; Lana Ollier. And reflects the situation of the CSP industry on Januart 1st 2019.\n\n## Changes\n The following changes were implemented compared to the last version. \n\n### New Collumns\n We added the following collumns. Support_Currency and Cost_Currency - indicating the currency, i.e. EURO, RMB, USD, etc of both support and Total Cost. For the companies along the supply chain: i.e. Developer,	EPC,	HCE_manufacturer,	SCA_manufacturer we added the respective home countries of the companies to enable the analysis of the localisation of the industry. We reconceptualized the SCA column as to the company engineering the SCA or Heliostat, and not the actual manufacturing, which is often subcontracted to local companies. \n\n### Other Projects \n In terms of projects we decided to limit the dataset to stations that are either under construction, or have been comissioned. Therefore we exclude projects that are part of the NER 300 program , Projects in the Chineese demonstration program that we found no progress information on, and the Solarreserves Redstone project in South Africa and Aurora in Australia that are only. We exlude stations that are under development or have an unclear status. THerefore, we exclude Stillwater and Kogan Creek, MINOS and Noor Midelt. Moreover we exclude the French Alba Nova 1 project which has been canceled, in India there has been no information on the KVK Energy Solar Project, Abhijeet and Diwakar projects for several years, so we view them as canceled. \n In China we previously listed the folowing projects which we could not confirm to be under construction as far as we know: \n* CECIC Gansu Wuwei -100MW Trough, \n* Dahua Shangyi - 50MW Tower, \n* Golden Tower / Gansu Jinta / China Three Gorges New Energy Jinta - 100MW Tower, \n* Golmud - 2 x 100MW Tower, \n*Huaneng Urat Fresnel (Northern United Power Urat) - 50MW Fresnel, \n* Huanghe Delingha - 135MW Tower, \n*Shenzen Jinfan Akesai - 50MW Trough, \n*Shouhang  Yumen (Old name: Shenhua Guohua Yumen) - 100MW Tower, \n*Zhangjiakou Terasolar (Huaqiang Zhaoyang Zhangjiakou DSG 50 CLFR) - 50MW Fresnel, \n* Zhengbei (CITIC Zhenbei) - 50MW Fresnel, \n* Zhongyang Zhangjiakou Chabei - 64MW Trough \n\n### Financial information \n The financial information was reduced compared to the last version. We have not produced LCOE and remuneration for other currencies than the USD and have updated the base year for the LCOE calculation to 2018. For this iteration of the dataset we decided to limit it to materializing projects, that is those under construction and those. Moreover we added the status of decomissioned plants As both SEGS I and II have been decomissioned.",
+    "long_description": "This datasets holds technical, economic, financial, and industrial data on all operating concentrating solar power stations and of stations under construction (larger than 10 MW). For detailed description of the data collection procedure, please see the original article [Lilliestam et al. (2017)](https://doi.org/10.1038/nenergy.2017.94).\n\n## Data Package\n\nWe provide the data in form of a [tabular data package](https://frictionlessdata.io/specs/tabular-data-package/) that consists of a CSV (comma separated values) file holding the actual data and a single JSON file (`datapackage.json`) holding the metadata.\n\n## License and conditions\n\nThe licence of this data allows academic and all non-commercial use if you give appropriate credit, under the [Creative Commons Attribution-NonCommercial 4.0 International license](https://creativecommons.org/licenses/by-nc/4.0/).\n\nFor academic and professional use (presentations, journal articles, reports, etc):\nPlease cite the original source, the paper [Lilliestam et al. (2017)](https://doi.org/10.1038/nenergy.2017.94). Please also link to https://www.csp.guru if possible.\n\n## Contact\n\nFor questions or issues get in touch with [Johan Lilliestam](mailto:johan.lilliestam@usys.ethz.ch) or [Richard Thonig](mailto:richard.thonig@usys.ethz.ch).\n## Acknowledgements\nFunding for the 2016-08-30 version of this work came from a European Research Council Consolidator Grant [DESERTECTION (grant number 313553)](https://cordis.europa.eu/project/rcn/106709_de.html), versions 2018-05-14 and 2019-09-01 received support from the European Union Horizon 2020 research and innovation program [MUSTEC (grant agreement No 764626) ](https://cordis.europa.eu/project/rcn/211264_en.html) .\n\n## Archive\n\nAll versions of the CSP.guru dataset are archived at [Zenodo](https://doi.org/10.5281/zenodo.1318151).",
     "resources": [
           {
             "path": "csp-guru.csv",
@@ -92,7 +92,7 @@
                         "type": "number"
                     },
                     {
-                        "name": "Cost_Currency",
+                        "name": "Cost_currency",
                         "description": "Indicates the currency used for total cost",
                         "type": "number"
                     },
@@ -107,7 +107,7 @@
                         "type": "string"
                     },
                     {
-                      "name": "Support_Currency",
+                      "name": "Support_currency",
                       "description": "Indicates the currency used for total cost",
                       "type": "number"
                     },
@@ -157,27 +157,27 @@
                         "type": "string"
                     },
                     {
-                        "name": "Receiver_Manufacturer",
+                        "name": "Receiver_manufacturer",
                         "description": "heat collecting element (HCE) manufacturer - for throughs or tower receiver",
                         "type": "string"
                     },
                     {
-                        "name": "Receiver_Manufacturer_country",
+                        "name": "Receiver_manufacturer_country",
                         "description": "Country of origin of the HCE manufacturer",
                         "type": "string"
                     },
                     {
-                        "name": "SCA_Heliostat_Engineering",
+                        "name": "SCA_heliostat_engineering",
                         "description": "the company engineering the SCA or Heliostat and not the actual manufacturing; which is often subcontracted to local companies",
                         "type": "string"
                     },
                     {
-                        "name": "SCA_Heliostat_Engineering_country",
+                        "name": "SCA_heliostat_engineering_country",
                         "description": "Country of origin of the company engineering the solar collector assemblies (SCA) or Heliostats",
                         "type": "string"
                     },
                     {
-                        "name": "First_Owner",
+                        "name": "First_owner",
                         "description": "owner of the CSP plant when it was comissioned",
                         "type": "string"
                     },
@@ -205,16 +205,6 @@
             "title": "Richard Thonig",
             "email": "richard.thonig@usys.ethz.ch",
             "role": "author"
-        },
-        {
-            "title": "Tim Tröndle",
-            "email": "tim.troendle@usys.ethz.ch",
-            "role": "maintainer"
-        },
-        {
-            "title": "Richard Thonig",
-            "email": "richard.thonig@usys.ethz.ch",
-            "role": "maintainer"
         }
     ],
     "licenses": [
