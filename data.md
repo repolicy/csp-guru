@@ -25,8 +25,20 @@ title: Plant List
             <td>{{ plant.Technology }}</td>
             <td>{{ plant.Capacity_MW }}</td>
             <td>{{ plant.Storage_capacity_h }}</td>
-            <td>{{ plant.LCOE_5_25_USD2018_per_kWh | round: 2 | replace: "0.0", ""}}</td>
-            <td>{{ plant.Remuneration_USD2018_per_kWh_deflated | round: 2 | replace: "0.0", ""}}</td>
+            <td>
+            {%- if plant.LCOE_5_25_USD2018_per_kWh -%}
+                {{ plant.LCOE_5_25_USD2018_per_kWh | round: 2}}
+            {%- else -%}
+                {{ plant.LCOE_5_25_USD2018_per_kWh }}
+            {%- endif -%}
+            </td>
+            <td>
+            {%- if plant.Remuneration_USD2018_per_kWh_deflated -%}
+                {{ plant.Remuneration_USD2018_per_kWh_deflated | round: 2}}
+            {%- else -%}
+                {{ plant.Remuneration_USD2018_per_kWh_deflated }}
+            {%- endif -%}
+            </td>
         </tr>
     {% endfor %}
     </tbody>
