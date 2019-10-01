@@ -1,4 +1,4 @@
-The licence of this data allows academic and all non-commercial use if you give appropriate credit, under the [Creative Commons Attribution-NonCommercial 4.0 International](https://creativecommons.org/licenses/by-nc/4.0/) license.
+The licence of this data allows academic and all non-commercial use if you give appropriate credit, under the [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) license.
 
 For academic and professional use (presentations, journal articles, reports, etc):
 
