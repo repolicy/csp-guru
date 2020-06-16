@@ -232,7 +232,7 @@
                     {
                         "name": "Turbine_efficiency",
                         "description": "Technical parameter of the turbine",
-                        "type": "sting"
+                        "type": "string"
                     },
                     {
                         "name": "Heat_exchanger_manufacturer",
