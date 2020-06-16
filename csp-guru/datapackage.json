@@ -151,7 +151,7 @@
                         "description": "Preferential loans and other beneficial financial incentives such as tax credits that enabled the project",
                         "type": "string"
                     },{
-                        "name": "Land_area_whole station_not_solar_field_km2",
+                        "name": "Land_area_whole_station_not_solar_field_km2",
                         "description": "Land used by the CSP station measured in square kilometers",
                         "type": "number"
                     },
@@ -168,6 +168,11 @@
                     {
                         "name": "First_owner",
                         "description": "Owner of the CSP plant when it was comissioned",
+                        "type": "string"
+                    },
+                    {
+                        "name": "First_operator",
+                        "description": "Company operating the CSP plant when it was comissioned",
                         "type": "string"
                     },
                     {
