@@ -417,8 +417,7 @@
                         "type": "number"
                     },
                     {
-                        "name": "Additional_sources_relative_to_2019_version_of_cspGURU_and_NRELSolarPACES_as_of_31_January_2020
-",
+                        "name": "Additional_sources_relative_to_2019_version_of_cspGURU_and_NRELSolarPACES_as_of_31_January_2020",
                         "description": "indicates where the information on each plant was retrieved from, data collection prossedure described in Lilliestam et al 2017: Nature energy",
                         "type": "string"
                     }
