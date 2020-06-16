@@ -230,8 +230,8 @@
                         "type": "number"
                     },
                     {
-                        "name": "Turbine_efficiency",
-                        "description": "Technical parameter of the turbine",
+                        "name": "Turbine_efficiency_percent",
+                        "description": "Technical parameter of the turbine percentatge of peak performance.",
                         "type": "string"
                     },
                     {
