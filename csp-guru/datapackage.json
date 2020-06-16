@@ -250,7 +250,7 @@
                         "type": "string"
                     },
                     {
-                        "name": "Cooling type",
+                        "name": "Cooling_type",
                         "description": "Indicates if the turbine uses wet or dry cooling",
                         "type": "string"
                     },{
@@ -266,7 +266,7 @@
                     {
                         "name": "Storage_description",
                         "description": "More information on the thermal energy storage system",
-                        "type": "number"
+                        "type": "string"
                     },
                     {
                         "name": "TES_engineering_company",
