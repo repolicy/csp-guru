@@ -4,7 +4,8 @@
     "version": "2020-01-01",
     "profile": "tabular-data-package",
     "description": "A database of concentrating solar power plants of the world for energy modellers and analysts.",
-    "long_description": "This datasets holds technical, economic, financial, and industrial data on all operating concentrating solar power stations and of stations under construction, and many demonstration plants as of January 2020. This is the first version of the open CSP dataset which has been produced by merging the CSP.guru dataset in the version  2019-09-01 and the data from [NREL-Solarpaces](https://web.archive.org/web/20200613123943/https://solarpaces.nrel.gov/download-project-all?_format=csv).  For detailed description of the data collection procedure of CSP.guru, please see the original article [Lilliestam et al. (2017)](https://doi.org/10.1038/nenergy.2017.94).\n\n## Data Package\n\nWe provide the data in form of a [tabular data package](https://frictionlessdata.io/specs/tabular-data-package/) that consists of a CSV (comma separated values) file holding the actual data and a single JSON file (`datapackage.json`) holding the metadata.\n\n## License and conditions\n\nThe licence of this data allows academic and all non-commercial use if you give appropriate credit, under the [Creative Commons Attribution-NonCommercial 4.0 International license](https://creativecommons.org/licenses/by-nc/4.0/).\n\nFor academic and professional use (presentations, journal articles, reports, etc):\nPlease cite the original source, the paper [Lilliestam et al. (2017)](https://doi.org/10.1038/nenergy.2017.94). Please also link to https://www.csp.guru if possible.\n\n## Contact\n\nFor questions or issues get in touch with [Richard Thonig](mailto:richard.thonig@iass-potsdam.de).\n## Acknowledgements\nFunding for the 2016-08-30 version of csp.guru came from a European Research Council Consolidator Grant [DESERTECTION (grant number 313553)](https://cordis.europa.eu/project/rcn/106709_de.html), csp.guru versions 2018-05-14 and csp.guru version 2019-09-01 and openCSP version 2020-01-01 received support from the European Union Horizon 2020 research and innovation program [MUSTEC (grant agreement No 764626) ](https://cordis.europa.eu/project/rcn/211264_en.html).  .\n\n## Archive\n\nAll versions of the CSP.guru dataset are archived at [Zenodo](https://doi.org/10.5281/zenodo.1318151).",
+    "long_description": "This datasets holds technical, economic, financial, and industrial data on all operating concentrating solar power stations and of stations under construction, and many demonstration plants as of 1 January 2020. This is the first version of the open CSP dataset which has been produced by merging the CSP.guru dataset in the version 2019-09-01 and the data from [NREL-Solarpaces](https://web.archive.org/web/20200613123943/https://solarpaces.nrel.gov/download-project-all?_format=csv). For detailed description of the data collection procedure of CSP.guru, please see the original article [Lilliestam et al. (2017)](https://doi.org/10.1038/nenergy.2017.94).\n\n## Data Package\n\nWe provide the data in form of a [tabular data package](https://frictionlessdata.io/specs/tabular-data-package/) that consists of a CSV (comma separated values) file holding the actual data and a single JSON file (`datapackage.json`) holding the metadata.\n\n## License and conditions\n\nThe licence of this data allows academic and all non-commercial use if you give appropriate credit (to csp.guru), under the [Creative Commons Attribution-NonCommercial 4.0 International license](https://creativecommons.org/licenses/by-nc/4.0/).\n\nFor academic and professional use (presentations, journal articles, reports, etc):if possible, please cite the source in which the present dataset was first used [Lilliestam et al. (2020)](  https://doi.org/10.1080/15567249.2020.1773580). Please also link to [www.csp.guru](https://www.csp.guru) if possible.\n\n## Contact\n\nFor questions or issues get in touch with [Richard Thonig](mailto:richard.thonig@iass-potsdam.de).\n## Acknowledgements\nFunding for this dataset version 2020-01-01 came from SolarPACES, OpenCSP data project. Previous versions of csp.guru were funded by
+ The European Research Council Consolidator Grant [DESERTECTION (grant number 313553)](https://cordis.europa.eu/project/rcn/106709_de.html), version 2016-08-30; csp.guru versions 2018-05-14 and csp.guru version 2019-09-01 received support from the European Union Horizon 2020 research and innovation program [MUSTEC (grant agreement No 764626) ](https://cordis.europa.eu/project/rcn/211264_en.html).  .\n\n## Archive\n\nAll versions of the CSP.guru dataset are archived at [Zenodo](https://doi.org/10.5281/zenodo.1318151).",
     "resources": [
           {
             "path": "csp-guru.csv",
@@ -43,7 +44,7 @@
                     },
                     {
                         "name": "Technology",
-                        "description": "Distinguishes CSP technologies: trough, tower, dish and, fresnel",
+                        "description": "Distinguishes CSP technologies: trough, tower, dish, and fresnel",
                         "type": "string"
                     },
                     {
@@ -57,13 +58,13 @@
                         "type": "integer"
                     },
                     {
-                        "name": "State_highes_administrative_level",
-                        "description": "Geographical description of the location where the CSP plant is located",
+                        "name": "State_highest_administrative_level",
+                        "description": "Geographical description of the location where the CSP plant is located. Member State or region.",
                         "type": "string"
                     },
                     {
-                        "name": "Province_County_medium_administative_level",
-                        "description": "Geographical description of the location where the CSP plant is located",
+                        "name": "Province_County_medium_administrative_level",
+                        "description": "Geographical description of the location where the CSP plant is located. Community or lower administrativ level",
                         "type": "string"
                     },
                     {
@@ -73,16 +74,16 @@
                     },
                     {
                         "name": "Location_coordinates",
-                        "description": "Location in longitude and latitude, to locate CSP plant on satelite data",
+                        "description": "Location in longitude and latitude, to locate CSP plant on satellite data",
                         "type": "string"
                     },
                     {
                         "name": "DNI_kWh_per_m2_per_yr",
-                        "description": "Direct normal irradiance (DNI) in kWh/m²/yr, indicates the solar resource",
+                        "description": "Direct normal irradiance (DNI) in kWh/m²/year, indicates the solar resource",
                         "type": "number"
                     },
                     {
-                        "name": "Total_cost_million_currency_non-deflated",
+                        "name": "Total_cost_million_currency_non_deflated",
                         "description":  "Construction cost in million local currency, non-deflated",
                         "type": "number"
                     },
@@ -93,7 +94,7 @@
                     },
                     {
                         "name": "Currency_year",
-                        "description": "Indicates the year of the financial closure of the project, or construction begin if no data was found. This is used for deflation",
+                        "description": "Indicates the year of the financial closure of the project, or construction begin if no data was found. This is used for deflation and currency conversion (exchange rate currency-USD as 31 December of the Currency Year)",
                         "type": "number"
                     },
                     {
@@ -103,17 +104,17 @@
                     },
                     {
                         "name": "Specific_cost_USD2020_per_kW",
-                        "description": "Specific cost of the CSP plant per kilowatt hour defalted to USD 2020",
+                        "description": "Specific cost of the CSP plant per kilowatt deflated to USD 2020",
                         "type": "number"
                     },
                     {
                         "name": "LCOE_5_25_USD2020_per_kWh",
-                        "description": "Levelised cost of electricity with 5% weighted average cost of capital USD2020/kWh and a 25 year payback period, cap dependent O&M, deflated from Year_operational using the Worldbank's GDP deflator; if station under development or constrution then deflated from 2020",
+                        "description": "Levelised cost of electricity with 5% weighted average cost of capital and a 25 year payback period, capacity dependent O&M (1.5% of investment cost per year), deflated from Year_operational using the Worldbank's GDP deflator; if station under development or construction then not deflated (assumed cost year 2020),
                         "type": "number"
                     },
                     {
                         "name": "Remuneration_currency_per_kWh",
-                        "description": "Indicates the level of FIT or PPA in currency per kWh, local currency in the year financing was announced",
+                        "description": "Indicates the level of support(e.g. FIT or PPA) in currency per kWh, local currency in the year of first feed-in",
                         "type": "number"
                     },
                     {
@@ -123,22 +124,22 @@
                     },
                     {
                         "name": "Cost_year_remuneration",
-                        "description": "Indicates the year when the PPA or other support was signed",
+                        "description": "Indicates the first year of payment of the support, or of grid connection (if no support)",
                         "type": "number"
                     },
                     {
                         "name": "Remuneration_USD2020_per_kWh_deflated",
-                        "description": "Remuneration USD2020/kWh, deflated from Cost_year_remuneration using the Worldbank's GDP deflator; if station under development or constrution then deflated from 2020",
+                        "description": "Remuneration USD2020/kWh, deflated from Cost_year_remuneration using the Worldbank's GDP deflator; if station under development or construction then not deflated (assumed cost year 2020)",
                         "type": "number"
                     },
                     {
                         "name": "PPA_or_support_duration_yr",
-                        "description": "Indicates the duration of PPA or feed in tariff",
+                        "description": "Indicates the duration of PPA or feed-in tariff",
                         "type": "number"
                     },
                                         {
                         "name": "Support_scheme_type",
-                        "description": "Distinguishes between PPAs and other support from feed in tariffs",
+                        "description": "Distinguishes the type of support scheme (mainly feed-in tariff (FIT) or power purchase agreement (PPA; either negotiated or auction-based)",
                         "type": "string"
                     },
                     {
@@ -147,7 +148,7 @@
                         "type": "string"
                     },
                     {
-                        "name": "Concessional_funding-other_support",
+                        "name": "Concessional_funding_other_support",
                         "description": "Preferential loans and other beneficial financial incentives such as tax credits that enabled the project",
                         "type": "string"
                     },{
@@ -167,7 +168,7 @@
                     },
                     {
                         "name": "First_owner",
-                        "description": "Owner of the CSP plant when it was comissioned",
+                        "description": "Owner of the CSP plant when it was commissioned",
                         "type": "string"
                     },
                     {
@@ -202,11 +203,11 @@
                     },
                     {
                         "name": "HTF_medium_or_product",
-                        "description": "Indicates the chemistry used to transport heat from the solar colector to heat storage or turbine",
+                        "description": "Indicates the chemistry used to transport heat from the solar collector to heat storage or turbine",
                         "type": "string"
                     },{
                         "name": "HTF_category",
-                        "description": "Four categories of HTF's: air, water, salt, thermal or organic oils",
+                        "description": "Four categories of HTFs: air, water, salt, thermal or organic oils",
                         "type": "string"
                     },
                     {
@@ -236,12 +237,12 @@
                     },
                     {
                         "name": "Turbine_efficiency_percent",
-                        "description": "Technical parameter of the turbine percentatge of peak performance.",
+                        "description": "Describes the efficiency of the turbine as a percentage of the peak performance.",
                         "type": "string"
                     },
                     {
                         "name": "Heat_exchanger_manufacturer",
-                        "description": "Company delivering the heat exanger to the plant",
+                        "description": "Company delivering the heat exchanger to the plant",
                         "type": "string"
                     },
                     {
@@ -255,7 +256,7 @@
                         "type": "string"
                     },{
                         "name": "Energy_storage_type",
-                        "description": "Technology used for heat storage. Often two tanks for hot and colt malten salt",
+                        "description": "Technology used for heat storage. Often two tanks for hot and cold molten salt",
                         "type": "string"
                     },
                     {
@@ -295,7 +296,7 @@
                     },
                     {
                         "name": "Tower_height_m",
-                        "description": "Technical property of solar receiver towers: the height of the solar tower",
+                        "description": "Technical property of solar receiver towers: the height of the solar tower in meters",
                         "type": "number"
                     },
                     {
@@ -304,17 +305,17 @@
                         "type": "number"
                     },{
                         "name": "Receiver_inlet_temperature_Celsius",
-                        "description": "Technical parameter of the solar receiver",
+                        "description": "Technical parameter of the solar receiver in degrees Celsius",
                         "type": "number"
                     },
                     {
                         "name": "Receiver_outlet_temperature_Celsius",
-                        "description": "Technical parameter of the solar receiver",
+                        "description": "Technical parameter of the solar receiver in degrees Celsius",
                         "type": "number"
                     },
                     {
                         "name": "SCA_or_heliostat_manufacturer",
-                        "description": "Company manufacturing the solar collector assemblies (SCA) or Heliostats, not necessarily the company that developed the design",
+                        "description": "Company manufacturing the solar collector assemblies (SCA) or Heliostats. Not necessarily the same company that developed the design",
                         "type": "string"
                     },
                     {
@@ -324,7 +325,7 @@
                     },
                     {
                         "name": "SCA_or_heliostat_engineering_or_IP_owner_company",
-                        "description": "Company that designed the solar collector assemblies (SCA) or Heliostats, not necessarily the company manufacturing them",
+                        "description": "Company that designed the solar collector assemblies (SCA) or Heliostats. Not necessarily the same company as the one that manufactured them",
                         "type": "string"
                     },
                     {
@@ -339,7 +340,7 @@
                     },
                     {
                         "name": "Reflector_mirror_manufacturer",
-                        "description": "Company that manufacture the solar mirrors",
+                        "description": "Company that manufactured the solar mirrors",
                         "type": "string"
                     },
                     {
@@ -354,7 +355,7 @@
                     },
                     {
                         "name": "Solar_mirror_area_m2",
-                        "description": "The aperture area of the mirrors",
+                        "description": "The aperture area of the mirrors in squaremeters",
                         "type": "number"
                     },
                     {
@@ -369,27 +370,27 @@
                     },
                     {
                         "name": "Fresnel_line_width_m",
-                        "description": "The width of the line of a fresnel type CSP plant",
+                        "description": "The width of the line of a fresnel type CSP plant in meters",
                         "type": "number"
                     },
                     {
                         "name": "Fresnel_number_of_lines",
-                        "description": "Technical parameter of fresnel type CSP plants: the number of fesnel lines",
+                        "description": "Technical parameter of fresnel type CSP plants: the number of fresnel lines",
                         "type": "number"
                     },
                     {
                         "name": "Fresnel_line_length_m",
-                        "description": "Technical parameter of fresnel type CSP plants: the length of the fesnel lines",
+                        "description": "Technical parameter of fresnel type CSP plants: the length of the fresnel lines in meters",
                         "type": "number"
                     },
                     {
                         "name": "Trough_solar_collector_area_m2",
-                        "description": "Technical parameter of trough type CSP plants: the aperture area of the trough solar collector assemblie (SCA)",
+                        "description": "Technical parameter of trough type CSP plants: the aperture area of the trough solar collector assemblies (SCA) in squaremeters",
                         "type": "number"
                     },
                     {
                         "name": "Trough_SCA_length_m",
-                        "description": "Technical parameter of trough type CSP plants: the length of the trough solar collector assemblie (SCA)",
+                        "description": "Technical parameter of trough type CSP plants: the length of the trough solar collector assemblies (SCA) in meters",
                         "type": "number"
                     },
                     {
@@ -399,7 +400,7 @@
                     },
                     {
                         "name": "Trough_number_of_modules_per_SCA",
-                        "description": "Technical parameter of trough type CSP plants: the number of modules per solar collector assemblie",
+                        "description": "Technical parameter of trough type CSP plants: the number of modules per solar collector assembly (SCA)",
                         "type": "number"
                     },{
                         "name": "Trough_number_of_SCA",
@@ -412,8 +413,8 @@
                         "type": "number"
                     },
                     {
-                        "name": "Construction+jobs-years",
-                        "description": " Employment during construction",
+                        "name": "Construction_jobs_years",
+                        "description": " Employment during construction in job-years",
                         "type": "number"
                     },
                     {
@@ -423,7 +424,7 @@
                     },
                     {
                         "name": "Additional_sources_relative_to_2019_version_of_cspGURU_and_NRELSolarPACES_as_of_31_January_2020",
-                        "description": "indicates where the information on each plant was retrieved from, data collection prossedure described in Lilliestam et al 2017: Nature energy",
+                        "description": "indicates where the information on each plant was retrieved from, data collection procedure described in Lilliestam et al 2017: Nature energy",
                         "type": "string"
                     }
                 ]
@@ -449,7 +450,7 @@
     ],
     "licenses": [
         {
-            "name": "CC-BY-SA-4.0",
+            "name": "CC-BY-NC-4.0",
             "path": "https://creativecommons.org/licenses/by-nc/4.0/",
             "title": "Attribution-NonCommercial 4.0 International"
         }
