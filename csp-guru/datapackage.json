@@ -108,7 +108,7 @@
                     },
                     {
                         "name": "LCOE_5_25_USD2020_per_kWh",
-                        "description": "Levelised cost of electricity with 5% weighted average cost of capital and a 25 year payback period, capacity dependent O&M (1.5% of investment cost per year), deflated from Year_operational using the Worldbank's GDP deflator; if station under development or construction then not deflated (assumed cost year 2020),
+                        "description": "Levelised cost of electricity with 5% weighted average cost of capital and a 25 year payback period, capacity dependent O&M (1.5% of investment cost per year), deflated from Year_operational using the Worldbank's GDP deflator; if station under development or construction then not deflated (assumed cost year 2020)",
                         "type": "number"
                     },
                     {
