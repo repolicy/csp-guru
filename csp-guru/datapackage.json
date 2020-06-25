@@ -451,13 +451,12 @@
             "title": "Chungcheng Zang, CAS ",
             "email": "zangchch@mail.iee.ac.cn",
             "role": "author"
-        }
+        },
         {
             "title": "Tim Tröndle",
             "email": "tim.troendle@iass-potsdam.de",
             "role": "maintainer"
-        },
-       
+        } 
     ],
     "licenses": [
         {
