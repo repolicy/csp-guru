@@ -432,20 +432,32 @@
     ],
     "contributors": [
         {
-            "title": "Johan Lilliestam",
+            "title": "Johan Lilliestam, IASS Potsdam",
             "email": "johan.lilliestam@iass-potsdam.de",
             "role": "author"
         },
+
+        {
+            "title": "Richard Thonig, IASS Potsdam",
+            "email": "richard.thonig@iass-potsdam.de",
+            "role": "author"
+        },
+                {
+            "title": "Alina Gilmanova, CAS",
+            "email": "alina@mail.iee.ac.cn",
+            "role": "author"
+        },
+        {
+            "title": "Chungcheng Zang, CAS ",
+            "email": "zangchch@mail.iee.ac.cn",
+            "role": "author"
+        }
         {
             "title": "Tim Tröndle",
             "email": "tim.troendle@iass-potsdam.de",
             "role": "maintainer"
         },
-        {
-            "title": "Richard Thonig",
-            "email": "richard.thonig@iass-potsdam.de",
-            "role": "author"
-        }
+       
     ],
     "licenses": [
         {
