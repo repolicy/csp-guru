@@ -17,4 +17,4 @@ Please cite the original source, the paper [Lilliestam et al. (2017)](https://do
 
 ## Contact
 
-For questions or issues get in touch with [Johan Lilliestam](mailto:johan.lilliestam@usys.ethz.ch) or [Richard Thonig](mailto:richard.thonig@usys.ethz.ch).
+For questions or issues get in touch with [Johan Lilliestam](mailto:johan.lilliestam@iass-potsdam.de) or [Richard Thonig](mailto:richard.thonig@iass-potsdam.de).
