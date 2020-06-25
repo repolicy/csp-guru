@@ -11,7 +11,7 @@ We provide the data in form of a [tabular data package](https://frictionlessdata
 
 ## License and conditions
 The licence of this data allows academic and all non-commercial use if you give appropriate credit, under the [Creative Commons Attribution-NonCommercial 4.0 International license](https://creativecommons.org/licenses/by-nc/4.0/).
-For academic and professional use (presentations, journal articles, reports, etc): Please cite the original source, the paper [Lilliestam et al. (2020)](https://doi.org/10.1080/15567249.2020.177358). Please also link to www.csp.guru if possible.
+For academic and professional use (presentations, journal articles, reports, etc): Please cite the original source, the paper [Lilliestam et al. (2020)](https://doi.org/10.1080/15567249.2020.1773580). Please also link to www.csp.guru if possible.
 
 ## Changes in this version of openCSP
 This is the first version of openCSP. It has been produced by merging the csp.guru dataset with the data contained in the NREL/Solarpaces database. Moreover, the data on all Chinese CSP stations was checked and improved by [Chuncheng Zang](mailto:zangchch@mail.iee.ac.cn) and [Alina Gilmanova](mailto:alina@mail.iee.ac.cn>).

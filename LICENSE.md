@@ -2,4 +2,4 @@ The licence of this data allows academic and all non-commercial use if you give 
 
 For academic and professional use (presentations, journal articles, reports, etc):
 
-Please cite the original source, the paper [Lilliestam et al. (2017), Nature Energy](https://doi.org/10.1038/nenergy.2017.94). Please also link to https://www.csp.guru if possible.
+Please cite the original source, the paper [Lilliestam et al. (2020)](https://doi.org/10.1080/15567249.2020.1773580). Please also link to www.csp.guru if possible.
