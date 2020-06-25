@@ -1,5 +1,5 @@
 # openCSP
-A database of concentrating solar power plants of the world for energy modellers and analysts.
+An open-source database of all concentrating solar power plants of the world for energy modellers and analysts.
 
 ## About
 This dataset holds technical, economic, financial, and industrial data on all operating concentrating solar power stations and of stations under construction, as well as several pilot stations. For detailed description of the data collection procedure, please see the initial article for which the dataset was compiled [Lilliestam et al. (2017)](https://doi.org/10.1038/nenergy.2017.94).
