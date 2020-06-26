@@ -27,7 +27,7 @@ It contains the following attributes for each CSP plant:
     <tbody>
     {% for attribute in attributes %}
         <tr>
-            <td>{{attribute.name}}</td>
+            <td>{{ attribute.name | truncate: 60, "..." }}</td>
             <td>{{attribute.description}}</td>
         </tr>
     {% endfor %}
