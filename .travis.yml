@@ -1,3 +1,3 @@
 language: python
-install: pip install goodtables
-script: goodtables csp-guru/datapackage.json
+install: pip install frictionless
+script: frictionless validate csp-guru/datapackage.json
