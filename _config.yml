@@ -12,4 +12,5 @@ theme: minima
 header_pages:
     - data.md
     - metadata.md
+    - paper.md
     - about.md
