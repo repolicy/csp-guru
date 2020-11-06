@@ -3,19 +3,15 @@ layout: page
 title: Paper and Analysis
 ---
 
-# Publications and analysis using CSP.guru
+CSP.guru has been developed since 2016 by Johan Lilliestam and his lab. The following publications use the data. If you want to collaborate on additional publications or have used csp.guru for another publication not listed here, please [get in touch](mailto:richard.thonig@iass-potsdam.de).
 
-csp. guru has beed developed since 2016 by Johan Lilliestam and his lab. The following publications use the data. If you want to cloaborate on additional publications or have used csp.guru for another publication not listed here, please [get in touch](mailto:richard.thonig@iass-potsdam.de).
-
-## Peer-reviewed publications that produced a new version of CSP.guru and explain the data collection procedure.
+## Peer-reviewed publications leading to new csp.guru versions
 
 Lilliestam, J., L. Ollier, M. Labordena, S. Pfenninger and R. Thonig (2020). The near- to mid-term outlook for concentrating solar power: mostly cloudy, chance of sun, in: [Energy Sources, Part B: Economics, Planning, and Policy: 1-19](https://doi.org/10.1080/15567249.2020.1773580)
 
 Lilliestam, J. and R. Pitz-Paal (2018). Concentrating solar power for less than USD 0.07 per kWh: finally the breakthrough?, in: [Renewable Energy Focus 26: 17-21](https://doi.org/10.1016/j.ref.2018.06.002)
 
 Lilliestam, J., Labordena, M., Patt, A., & Pfenninger, S. (2017). Empirically observed learning rates for concentrating solar power and their responses to regime change. [Nature Energy, 2, 17094.]( https://doi.org/10.1038/nenergy.2017.94)
-
-
 
 ## Other peer-reviewed publications
 Kiefer, C. P. and P. del Río (2020). Analysing the barriers and drivers to concentrating solar power in the European Union. Policy implications, in: [Journal of Cleaner Production 251: 119400](https://doi.org/10.1016/j.jclepro.2019.119400).
