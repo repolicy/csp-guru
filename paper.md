@@ -32,7 +32,7 @@ Lilliestam, J., T. Barradi, N. Caldés, M. Gomez, S. Hanger, J. Kern, N. Komenda
 
 Rea, J. E., C. J. Oshman, M. L. Olsen, C. L. Hardin, G. C. Glatzmaier, N. P. Siegel, P. A. Parilla, D. S. Ginley and E. S. Toberer (2018). Performance modeling and techno-economic analysis of a modular concentrated solar power tower with latent heat storage, in: [Applied Energy 217: 143-152](https://doi.org/10.1016/j.apenergy.2018.02.067).
 
-## Reports:
+## Reports
 The Horizon 2020 project [MUSTEC](www.mustec.eu) used data from CSP guru for multiple of its reports. Examples include:
 
 Resch, G., Schöniger, F., Kleinschmitt, C., Franke, K., Sensfuß, F., Thonig, R., and Lilliestam, J. (2020): [Market uptake of concentrating solar power in Europe: model-based analysis of drivers and policy trade-offs](https://www.mustec.eu/node/130). Deliverable 8.2 of the Horizon2020 project MUSTEC, TU Wien, Vienna, Austria.
@@ -53,4 +53,4 @@ Johan Lilliestam, Mercè Labordena, Lana Ollier, Stefan Pfenninger, Richard Thon
 
 Johan Lilliestam, Mercè Labordena, Lana Ollier, Stefan Pfenninger, Richard Thonig, & Tim Tröndle. (2018). CSP.guru (Version 2018-05-14) [Data set]. Zenodo. [http://doi.org/10.5281/zenodo.1342716](http://doi.org/10.5281/zenodo.1342716)
 
-Johan Lilliestam, & Mercè Labordena. (2016). CSP.guru (Version 2016-08-30) [Data set]. https://doi.org/10.1038/nenergy.2017.94. Zenodo. [http://doi.org/10.5281/zenodo.1318152](http://doi.org/10.5281/zenodo.1318152)
+Johan Lilliestam, & Mercè Labordena. (2016). CSP.guru (Version 2016-08-30) [Data set]. [https://doi.org/10.1038/nenergy.2017.94](https://doi.org/10.1038/nenergy.2017.94). Zenodo. [http://doi.org/10.5281/zenodo.1318152](http://doi.org/10.5281/zenodo.1318152)
