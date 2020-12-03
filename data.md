@@ -12,8 +12,9 @@ title: Plant List
             <td>Technology</td>
             <td>Capacity [MW]</td>
             <td>Storage capacity [h]</td>
-            <td>LCOE [USD/kWh]</td>
-            <td>Remuneration [USD/kWh]</td>
+            <td>LCOE [$/kWh]</td>
+            <td>Remuneration [$/kWh]</td>
+            <td>Location</td>
         </tr>
     </thead>
     <tbody>
@@ -37,6 +38,13 @@ title: Plant List
                 {{ plant.Remuneration_USD2020_per_kWh_deflated | round: 2}}
             {%- else -%}
                 {{ plant.Remuneration_USD2020_per_kWh_deflated }}
+            {%- endif -%}
+            </td>
+            <td>
+            {%- if plant.Location_coordinates -%}
+                <a href="https://www.google.com/maps/@?api=1&map_action=map&zoom=15&basemap=satellite&center={{ plant.Location_coordinates }}">
+                Show
+                </a>
             {%- endif -%}
             </td>
         </tr>
