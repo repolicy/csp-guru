@@ -13,5 +13,5 @@ layout: home
 </p>
 
 <p style="text-align: center;">
-Past versions of the data and citation reference:<br><a href="https://zenodo.org/record/4297966"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4297966.svg"></a>
+Past versions of the data and citation reference:<br><a href="http://doi.org/10.5281/zenodo.4297966"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4297966.svg"></a>
 </p>
