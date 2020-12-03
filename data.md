@@ -42,7 +42,7 @@ title: Plant List
             </td>
             <td>
             {%- if plant.Location_coordinates -%}
-                <a href="https://www.google.com/maps/search/?api=1&query={{ plant.Location_coordinates | remove:' ' | replace:'"','″'}}" target="_blank">
+                <a href="https://www.google.com/maps/search/?api=1&query={{ plant.Location_coordinates }}" target="_blank">
                 Show
                 </a>
             {%- endif -%}
