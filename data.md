@@ -42,7 +42,7 @@ title: Plant List
             </td>
             <td>
             {%- if plant.Location_coordinates -%}
-                <a href="https://www.google.com/maps/@?api=1&map_action=map&zoom=13&basemap=satellite&center={{ plant.Location_coordinates }}">
+                <a href="https://www.google.com/maps/@?api=1&map_action=map&zoom=15&basemap=satellite&center={{ plant.Location_coordinates }}">
                 Show
                 </a>
             {%- endif -%}
