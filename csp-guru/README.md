@@ -13,7 +13,7 @@ We provide the data in form of a [tabular data package](https://frictionlessdata
 The licence of this data allows to share and adapt this data if you give appropriate credit, under the Creative Commons Attribution 4.0 International (CC BY 4.0) license. For academic and professional use (presentations, journal articles, reports, etc): Please cite the original source, the paper [Lilliestam et al. (2020)](https://doi.org/10.1080/15567249.2020.1773580). Please also link to www.csp.guru if possible.
 
 ## Changes in this version of CSP.guru
-This is the third version of CSP.guru produced during the openCSP project. And reflects the state of play at the beginning of 2021. Additional data on the Chinese CSP stations was included based on information from [Chuncheng Zang](mailto:zangchch@mail.iee.ac.cn) and [Alina Gilmanova](mailto:alina@mail.iee.ac.cn). Two additional projects are under construction named: Shenzhen Jinfan Akesai - 50MW Molten Salt Trough OpenCSP ID:132, and Shouhang Yumen 100 MW Tower openCSP ID: 133.
+This is the third version of CSP.guru produced during the openCSP project and reflects the state of play at the beginning of 2021. Additional data on the Chinese CSP stations was included based on information from [Chuncheng Zang](mailto:zangchch@mail.iee.ac.cn) and [Alina Gilmanova](mailto:alina@mail.iee.ac.cn). Two additional projects are under construction named: Shenzhen Jinfan Akesai - 50MW Molten Salt Trough OpenCSP ID:132, and Shouhang Yumen 100 MW Tower openCSP ID: 133.
 
 
 

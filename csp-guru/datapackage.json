@@ -460,9 +460,9 @@
     ],
     "licenses": [
         {
-            "name": "CC-BY-NC-4.0",
-            "path": "https://creativecommons.org/licenses/by-nc/4.0/",
-            "title": "Attribution-NonCommercial 4.0 International"
+            "name": "CC-BY 4.0",
+            "path": "https://creativecommons.org/licenses/by/4.0/",
+            "title": "Attribution 4.0 International"
         }
     ]
 }
