@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/repolicy/csp-guru.svg?branch=master)](https://travis-ci.org/repolicy/csp-guru)
+[![goodtables.io](https://goodtables.io/badge/github/repolicy/csp-guru.svg)](https://goodtables.io/github/repolicy/csp-guru)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1318151.svg)](https://doi.org/10.5281/zenodo.1318151)
 
 # CSP.guru
