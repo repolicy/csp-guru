@@ -1,3 +1,0 @@
-language: python
-install: pip install frictionless
-script: frictionless validate csp-guru/datapackage.json
