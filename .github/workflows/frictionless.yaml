@@ -1,4 +1,4 @@
-name: Datapackage test
+name: Datapackage
 on:
     push:
         branches:
