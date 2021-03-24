@@ -13,6 +13,6 @@ layout: home
 </p>
 
 <p style="text-align: center;">
-**Suggested citation:** Johan Lilliestam, Richard Thonig, Chuncheng Zang, & Alina Gilmanova (2021). CSP.guru (Version 2021-01-01) [Data set]. Zenodo. [http://doi.org/10.5281/zenodo.4613099](http://doi.org/10.5281/zenodo.4613099)
+<b>Suggested citation:</b> Johan Lilliestam, Richard Thonig, Chuncheng Zang, & Alina Gilmanova (2021). CSP.guru (Version 2021-01-01) [Data set]. Zenodo. [http://doi.org/10.5281/zenodo.4613099](http://doi.org/10.5281/zenodo.4613099)
 Past versions of the data and citation reference:<br><a href="https://doi.org/10.5281/zenodo.4613099"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4613099.svg"></a>
 </p>
