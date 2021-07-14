@@ -65,6 +65,8 @@ Price, H., M. Mehos, D. Kearney, R. Cable, B. Kelly, G. Kolb and F. Morse (2021)
 Mir-Artigues, P., P. del Río and N. Caldés (2019). The Economics and Policy of Concentrating Solar Power Generation, [Springer International Publishing](https://www.springer.com/gp/book/9783030119379).
 
 ## Old versions of CSP.guru
+Johan Lilliestam, Richard Thonig, Alina Gilmanova, & Chuncheng Zang. (2021). CSP.guru (Version 2021-01-01) [Data set]. Zenodo. [http://doi.org/10.5281/zenodo.4613099](http://doi.org/10.5281/zenodo.4613099)
+
 Johan Lilliestam, Richard Thonig, Alina Gilmanova, & Chuncheng Zang. (2020). CSP.guru (Version 2020-07-01) [Data set]. Zenodo. [http://doi.org/10.5281/zenodo.4297966](http://doi.org/10.5281/zenodo.4297966)
 
 Johan Lilliestam, Richard Thonig, Alina Gilmanova, & Chuncheng Zang. (2020). Csp.guru - openCSP (Version 2020-01-01) [Data set]. Zenodo. [http://doi.org/10.5281/zenodo.3909229](http://doi.org/10.5281/zenodo.3909229)
