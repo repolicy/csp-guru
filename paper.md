@@ -5,7 +5,7 @@ title: Paper and Analysis
 
 CSP.guru has been developed since 2016 by Johan Lilliestam and his lab. The following publications refer to the data and use it among their own unique contributions for some of their analysis. You are free to use the data for any academic work by citing the version you use, see [Zenodo for details](https://doi.org/10.5281/zenodo.1318151) and one of the publications leading to new csp.guru version for peer-reviewed methodology behind the data. If you want to collaborate on additional publications or have used csp.guru for another publication not listed here and what to get it up on the page, please [get in touch](mailto:richard.thonig@iass-potsdam.de).
 
-<b>Suggested citation:</b> Johan Lilliestam, Richard Thonig, Chuncheng Zang, & Alina Gilmanova. (2021). CSP.guru (Version 2021-01-01) [Data set]. Zenodo. [http://doi.org/10.5281/zenodo.4613099](http://doi.org/10.5281/zenodo.4613099)
+<b>Suggested citation:</b> Johan Lilliestam, Richard Thonig, Chuncheng Zang, & Alina Gilmanova. (2021). CSP.guru (Version 2021-07-01) [Data set]. Zenodo. [http://doi.org/10.5281/zenodo.5094290](http://doi.org/10.5281/zenodo.5094290)
 
 ## Peer-reviewed publications leading to new csp.guru versions
 
@@ -13,7 +13,7 @@ Lilliestam, J., L. Ollier, M. Labordena, S. Pfenninger and R. Thonig (2021). The
 
 Lilliestam, J. and R. Pitz-Paal (2018). Concentrating solar power for less than USD 0.07 per kWh: finally the breakthrough?, in: [Renewable Energy Focus 26: 17-21](https://doi.org/10.1016/j.ref.2018.06.002)
 
-Lilliestam, J., Labordena, M., Patt, A., & Pfenninger, S. (2017). Empirically observed learning rates for concentrating solar power and their responses to regime change. [Nature Energy, 2, 17094.]( https://doi.org/10.1038/nenergy.2017.94)
+Lilliestam, J., M. Labordena, A. Patt, & S. Pfenninger, (2017). Empirically observed learning rates for concentrating solar power and their responses to regime change. [Nature Energy, 2, 17094.]( https://doi.org/10.1038/nenergy.2017.94)
 
 ## Other peer-reviewed publications using csp.guru data for parts of their analysis
 Gilmanova, A., Z. Wang, J. Gosens and J. Lilliestam (2021). Building an internationally competitive concentrating solar power industry in China: lessons from wind power and photovoltaics, in: [Energy Sources, Part B: Economics, Planning, and Policy: 1-27.](https://doi.org/10.1080/15567249.2021.1931563)
