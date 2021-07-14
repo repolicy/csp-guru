@@ -13,7 +13,7 @@ Lilliestam, J., L. Ollier, M. Labordena, S. Pfenninger and R. Thonig (2021). The
 
 Lilliestam, J. and R. Pitz-Paal (2018). Concentrating solar power for less than USD 0.07 per kWh: finally the breakthrough?, in: [Renewable Energy Focus 26: 17-21](https://doi.org/10.1016/j.ref.2018.06.002)
 
-Lilliestam, J., M. Labordena, A. Patt, & S. Pfenninger, (2017). Empirically observed learning rates for concentrating solar power and their responses to regime change. [Nature Energy, 2, 17094.]( https://doi.org/10.1038/nenergy.2017.94)
+Lilliestam, J., M. Labordena, A. Patt, & S. Pfenninger (2017). Empirically observed learning rates for concentrating solar power and their responses to regime change. [Nature Energy, 2, 17094.]( https://doi.org/10.1038/nenergy.2017.94)
 
 ## Other peer-reviewed publications using csp.guru data for parts of their analysis
 Gilmanova, A., Z. Wang, J. Gosens and J. Lilliestam (2021). Building an internationally competitive concentrating solar power industry in China: lessons from wind power and photovoltaics, in: [Energy Sources, Part B: Economics, Planning, and Policy: 1-27.](https://doi.org/10.1080/15567249.2021.1931563)
