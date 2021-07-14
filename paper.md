@@ -5,7 +5,7 @@ title: Paper and Analysis
 
 CSP.guru has been developed since 2016 by Johan Lilliestam and his lab. The following publications refer to the data and use it among their own unique contributions for some of their analysis. You are free to use the data for any academic work by citing the version you use, see [Zenodo for details](https://doi.org/10.5281/zenodo.1318151) and one of the publications leading to new csp.guru version for peer-reviewed methodology behind the data. If you want to collaborate on additional publications or have used csp.guru for another publication not listed here and what to get it up on the page, please [get in touch](mailto:richard.thonig@iass-potsdam.de).
 
-<b>Suggested citation:</b> Johan Lilliestam, Richard Thonig, Chuncheng Zang, & Alina Gilmanova. (2021). CSP.guru (Version 2021-01-01) [Data set]. Zenodo. [http://doi.org/10.5281/zenodo.4613099](http://doi.org/10.5281/zenodo.4613099)
+<b>Suggested citation:</b> Johan Lilliestam, Richard Thonig, Chuncheng Zang, & Alina Gilmanova. (2021). CSP.guru (Version 2021-07-01) [Data set]. Zenodo. [http://doi.org/10.5281/zenodo.5094290](http://doi.org/10.5281/zenodo.5094290)
 
 ## Peer-reviewed publications leading to new csp.guru versions
 
@@ -13,9 +13,12 @@ Lilliestam, J., L. Ollier, M. Labordena, S. Pfenninger and R. Thonig (2021). The
 
 Lilliestam, J. and R. Pitz-Paal (2018). Concentrating solar power for less than USD 0.07 per kWh: finally the breakthrough?, in: [Renewable Energy Focus 26: 17-21](https://doi.org/10.1016/j.ref.2018.06.002)
 
-Lilliestam, J., Labordena, M., Patt, A., & Pfenninger, S. (2017). Empirically observed learning rates for concentrating solar power and their responses to regime change. [Nature Energy, 2, 17094.]( https://doi.org/10.1038/nenergy.2017.94)
+Lilliestam, J., M. Labordena, A. Patt, & S. Pfenninger (2017). Empirically observed learning rates for concentrating solar power and their responses to regime change. [Nature Energy, 2, 17094.]( https://doi.org/10.1038/nenergy.2017.94)
 
 ## Other peer-reviewed publications using csp.guru data for parts of their analysis
+Gilmanova, A., Z. Wang, J. Gosens and J. Lilliestam (2021). Building an internationally competitive concentrating solar power industry in China: lessons from wind power and photovoltaics, in: [Energy Sources, Part B: Economics, Planning, and Policy: 1-27.](https://doi.org/10.1080/15567249.2021.1931563)
+
+Malan, A. and K. Ravi Kumar (2021). A comprehensive review on optical analysis of parabolic trough solar collector, in: [Sustainable Energy Technologies and Assessments 46: 101305](https://doi.org/10.1016/j.seta.2021.101305)
 
 Gosens, J., A. Gilmanova and J. Lilliestam (2021). Windows of opportunity for catching up in formative clean-tech sectors and the rise of China in concentrated solar power, in: [Environmental Innovation and Societal Transitions 39: 86-106.](https://doi.org/10.1016/j.eist.2021.03.005)
 
@@ -42,6 +45,7 @@ Lilliestam, J., T. Barradi, N. Caldés, M. Gomez, S. Hanger, J. Kern, N. Komenda
 Rea, J. E., C. J. Oshman, M. L. Olsen, C. L. Hardin, G. C. Glatzmaier, N. P. Siegel, P. A. Parilla, D. S. Ginley and E. S. Toberer (2018). Performance modeling and techno-economic analysis of a modular concentrated solar power tower with latent heat storage, in: [Applied Energy 217: 143-152](https://doi.org/10.1016/j.apenergy.2018.02.067).
 
 ## Reports
+IRENA (2021), [Renewable Power Generation Costs in 2020](https://www.irena.org/newsroom/pressreleases/2021/Jun/Majority-of-New-Renewables-Undercut-Cheapest-Fossil-Fuel-on-Cost). International Renewable Energy Agency,  Abu Dhabi
 
 Mehos, M., Price, H., Cable, R., Kearney, D., Kelly, B., Kolb, G., and Morse, F. (2020) Concentrating Solar Power Best Practices Study. Golden, CO: [National Renewable Energy Laboratory](https://doi.org/10.2172/1665767)
 
@@ -61,6 +65,8 @@ Price, H., M. Mehos, D. Kearney, R. Cable, B. Kelly, G. Kolb and F. Morse (2021)
 Mir-Artigues, P., P. del Río and N. Caldés (2019). The Economics and Policy of Concentrating Solar Power Generation, [Springer International Publishing](https://www.springer.com/gp/book/9783030119379).
 
 ## Old versions of CSP.guru
+Johan Lilliestam, Richard Thonig, Alina Gilmanova, & Chuncheng Zang. (2021). CSP.guru (Version 2021-01-01) [Data set]. Zenodo. [http://doi.org/10.5281/zenodo.4613099](http://doi.org/10.5281/zenodo.4613099)
+
 Johan Lilliestam, Richard Thonig, Alina Gilmanova, & Chuncheng Zang. (2020). CSP.guru (Version 2020-07-01) [Data set]. Zenodo. [http://doi.org/10.5281/zenodo.4297966](http://doi.org/10.5281/zenodo.4297966)
 
 Johan Lilliestam, Richard Thonig, Alina Gilmanova, & Chuncheng Zang. (2020). Csp.guru - openCSP (Version 2020-01-01) [Data set]. Zenodo. [http://doi.org/10.5281/zenodo.3909229](http://doi.org/10.5281/zenodo.3909229)
