@@ -16,6 +16,9 @@ Lilliestam, J. and R. Pitz-Paal (2018). Concentrating solar power for less than 
 Lilliestam, J., Labordena, M., Patt, A., & Pfenninger, S. (2017). Empirically observed learning rates for concentrating solar power and their responses to regime change. [Nature Energy, 2, 17094.]( https://doi.org/10.1038/nenergy.2017.94)
 
 ## Other peer-reviewed publications using csp.guru data for parts of their analysis
+Gilmanova, A., Z. Wang, J. Gosens and J. Lilliestam (2021). Building an internationally competitive concentrating solar power industry in China: lessons from wind power and photovoltaics, in: [Energy Sources, Part B: Economics, Planning, and Policy: 1-27.](https://doi.org/10.1080/15567249.2021.1931563)
+
+Malan, A. and K. Ravi Kumar (2021). A comprehensive review on optical analysis of parabolic trough solar collector, in: [Sustainable Energy Technologies and Assessments 46: 101305](https://doi.org/10.1016/j.seta.2021.101305)
 
 Gosens, J., A. Gilmanova and J. Lilliestam (2021). Windows of opportunity for catching up in formative clean-tech sectors and the rise of China in concentrated solar power, in: [Environmental Innovation and Societal Transitions 39: 86-106.](https://doi.org/10.1016/j.eist.2021.03.005)
 
@@ -42,6 +45,7 @@ Lilliestam, J., T. Barradi, N. Caldés, M. Gomez, S. Hanger, J. Kern, N. Komenda
 Rea, J. E., C. J. Oshman, M. L. Olsen, C. L. Hardin, G. C. Glatzmaier, N. P. Siegel, P. A. Parilla, D. S. Ginley and E. S. Toberer (2018). Performance modeling and techno-economic analysis of a modular concentrated solar power tower with latent heat storage, in: [Applied Energy 217: 143-152](https://doi.org/10.1016/j.apenergy.2018.02.067).
 
 ## Reports
+IRENA (2021), [Renewable Power Generation Costs in 2020](https://www.irena.org/newsroom/pressreleases/2021/Jun/Majority-of-New-Renewables-Undercut-Cheapest-Fossil-Fuel-on-Cost). International Renewable Energy Agency,  Abu Dhabi
 
 Mehos, M., Price, H., Cable, R., Kearney, D., Kelly, B., Kolb, G., and Morse, F. (2020) Concentrating Solar Power Best Practices Study. Golden, CO: [National Renewable Energy Laboratory](https://doi.org/10.2172/1665767)
 
