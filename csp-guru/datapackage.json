@@ -9,6 +9,7 @@
           {
             "path": "csp-guru.csv",
             "profile": "tabular-data-resource",
+            "name": "csp-guru",
             "schema": {
                 "fields": [
                     {
