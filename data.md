@@ -12,8 +12,6 @@ title: Plant List
             <td>Technology</td>
             <td>Capacity [MW]</td>
             <td>Storage capacity [h]</td>
-            <td>LCOE [$/kWh]</td>
-            <td>Remuneration [$/kWh]</td>
             <td>Location</td>
         </tr>
     </thead>
