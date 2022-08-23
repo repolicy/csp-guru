@@ -20,10 +20,10 @@ title: Plant List
     <tbody>
     {% for plant in site.data.csp-guru %}
         <tr>
-            <td>{{ plant.Technology }}</td>
+            <td>{{ plant.Power_station }}</td>
             <td>{{ plant.Country }}</td>
             <td>{{ plant.Year_operational }}</td>
-            <td>{{ plant.Power_station }}</td>
+            <td>{{ plant.Technology }}</td>
             <td>{{ plant.Capacity_MW }}</td>
             <td>{{ plant.Storage_capacity_hours }}</td>
             <td>
