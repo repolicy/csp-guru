@@ -27,20 +27,6 @@ title: Plant List
             <td>{{ plant.Capacity_MW }}</td>
             <td>{{ plant.Storage_capacity_hours }}</td>
             <td>
-            {%- if plant.LCOE_5_25_USD2020_per_kWh -%}
-                {{ plant.LCOE_5_25_USD2020_per_kWh | round: 2}}
-            {%- else -%}
-                {{ plant.LCOE_5_25_USD2020_per_kWh }}
-            {%- endif -%}
-            </td>
-            <td>
-            {%- if plant.Remuneration_USD2020_per_kWh_deflated -%}
-                {{ plant.Remuneration_USD2020_per_kWh_deflated | round: 2}}
-            {%- else -%}
-                {{ plant.Remuneration_USD2020_per_kWh_deflated }}
-            {%- endif -%}
-            </td>
-            <td>
             {%- if plant.Location_coordinates -%}
                 <a href="https://www.google.com/maps/@?api=1&map_action=map&zoom=15&basemap=satellite&center={{ plant.Location_coordinates }}">
                 Show
