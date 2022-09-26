@@ -448,9 +448,10 @@
     ],
     "contributors": [
         {
-          "title": "Richard Thonig, IASS Potsdam",
-          "email": "richard.thonig@iass-potsdam.de",
-          "role": "author"
+            "title": "Richard Thonig, IASS Potsdam",
+            "email": "richard.thonig@iass-potsdam.de",
+            "role": "author"
+
         },
         {
             "title": "Johan Lilliestam, IASS Potsdam",
