@@ -5,7 +5,7 @@ title: Paper and Analysis
 CSP.guru has been developed since 2016 by Johan Lilliestam and his lab. The following publications refer to the data and use it among their own unique contributions for some of their analysis. You are free to use the data for any academic work by citing the version you use, see [Zenodo for details](https://doi.org/10.5281/zenodo.1318151) and one of the publications leading to new csp.guru version for peer-reviewed methodology behind the data. If you want to collaborate on additional publications or have used csp.guru for highlighting other publication not listed here, please [get in touch](mailto:richard.thonig@iass-potsdam.de).
 
 <b>Suggested citation:</b>
-Richard Thonig, & Johan Lilliestam. (2022). CSP.guru  (Version 2022-07-01) [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.7010643](https://doi.org/10.5281/zenodo.7010643)
+Richard Thonig, & Johan Lilliestam. (2022). CSP.guru  (Version 2022-07-01) [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.7112761](https://doi.org/10.5281/zenodo.7112761)
 
 ## Peer-reviewed publications leading to new csp.guru versions
 Thonig, R., A. Gilmanova, J. Zhan and J. Lilliestam (2022). Chinese CSP for the world?, in: [AIP Conference Proceedings 2445 (1): 050007](https://doi.org/10.1063/5.0085752).
