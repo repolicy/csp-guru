@@ -9,9 +9,8 @@ layout: home
 {{ description }}
 
 <p style="padding: 20px 0; text-align: center;">
-    <a class="button green" href="https://zenodo.org/record/5094290/files/repolicy/csp-guru-2021-07-01.zip?download=1">Direct data download</a>
+    <a class="button green" href="https://zenodo.org/record/7112761/files/repolicy/csp-guru-2022-07-01.02.zip?download=1">Direct data download</a>
 </p>
 
 <p style="text-align: center;">
-<b>Suggested citation:</b> Johan Lilliestam, Richard Thonig, Chuncheng Zang, & Alina Gilmanova (2021). CSP.guru (Version 2021-07-01) [Data set]. Zenodo.  
-<a href="http://doi.org/10.5281/zenodo.5094290">http://doi.org/10.5281/zenodo.5094290</a>
+<b>Suggested citation:</b> Richard Thonig, & Johan Lilliestam. (2022). CSP.guru 2022-07-01 (2022-07-01) [Data set]. Zenodo.<a href="https://doi.org/10.5281/zenodo.7112761">https://doi.org/10.5281/zenodo.7112761</a>
