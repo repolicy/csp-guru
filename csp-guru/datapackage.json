@@ -212,7 +212,7 @@
                         "type": "string"
                     },
                     {
-                        "name": "HTF_ manufacturer_country",
+                        "name": "HTF_manufacturer_country",
                         "description": "Country of origin of the company responsible for delivering the heat transfer fluid to the plant",
                         "type": "string"
                     },
