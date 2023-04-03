@@ -55,7 +55,7 @@
                     {
                         "name": "Capacity_factor",
                         "description": "Ratio of expected electrical energy output over a year to the theoretical maximum electrical energy.",
-                        "type": "number"
+                        "type": "string"
                     },
                     {
                         "name": "Technology",
