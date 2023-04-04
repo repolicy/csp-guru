@@ -9,7 +9,7 @@ layout: home
 {{ description }}
 
 <p style="padding: 20px 0; text-align: center;">
-    <a class="button green" href="https://zenodo.org/record/7112761/files/repolicy/csp-guru-2022-07-01.02.zip?download=1">Direct data download</a>
+    <a class="button green" href="https://zenodo.org/record/7798946/files/repolicy/csp-guru-2023-01-01.zip?download=1">Direct data download</a>
 </p>
 
 <p style="text-align: center;">
