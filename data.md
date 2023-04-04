@@ -50,7 +50,7 @@ title: Plant List
     $(document).ready( function () {
         $('#csp-table').DataTable({
             "paging": false,
-            "order": [[ 2, "desc" ]]
+            "order": [[ 3, "desc" ]]
         });
     } );
 </script>
