@@ -13,4 +13,4 @@ layout: home
 </p>
 
 <p style="text-align: center;">
-<b>Suggested citation:</b> Richard Thonig, & Johan Lilliestam. (2022). CSP.guru 2022-07-01 (2022-07-01) [Data set]. Zenodo.<a href="https://doi.org/10.5281/zenodo.7112761">https://doi.org/10.5281/zenodo.7112761</a>
+<b>Suggested citation:</b> Richard Thonig, Alina Gilmanova & Johan Lilliestam. (2023). CSP.guru 2023-01-01 [Data set]. Zenodo.<a href="https://doi.org/10.5281/zenodo.1318151">https://doi.org/10.5281/zenodo.1318151</a>

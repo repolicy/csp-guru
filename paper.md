@@ -5,7 +5,7 @@ title: Paper and Analysis
 CSP.guru has been developed since 2016 by Johan Lilliestam and his lab. The following publications refer to the data and use it among their own unique contributions for some of their analysis. You are free to use the data for any academic work by citing the version you use, see [Zenodo for details](https://doi.org/10.5281/zenodo.1318151) and one of the publications leading to new csp.guru version for peer-reviewed methodology behind the data. If you want to collaborate on additional publications or have used csp.guru for highlighting other publication not listed here, please [get in touch](mailto:richard.thonig@iass-potsdam.de).
 
 <b>Suggested citation:</b>
-Richard Thonig, & Johan Lilliestam. (2022). CSP.guru  (Version 2022-07-01) [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.7112761](https://doi.org/10.5281/zenodo.7112761)
+Richard Thonig, & Johan Lilliestam. (2023). CSP.guru  (Version 2023-01-01) [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.1318151](https://doi.org/10.5281/zenodo.1318151)
 
 ## Peer-reviewed publications leading to new csp.guru versions
 Thonig, R., A. Gilmanova, J. Zhan and J. Lilliestam (2022). Chinese CSP for the world?, in: [AIP Conference Proceedings 2445 (1): 050007](https://doi.org/10.1063/5.0085752).
@@ -17,6 +17,7 @@ Lilliestam, J. and R. Pitz-Paal (2018). Concentrating solar power for less than 
 Lilliestam, J., M. Labordena, A. Patt, & S. Pfenninger (2017). Empirically observed learning rates for concentrating solar power and their responses to regime change. [Nature Energy, 2, 17094.]( https://doi.org/10.1038/nenergy.2017.94)
 
 ## Other peer-reviewed publications using csp.guru data for parts of their analysis
+Hahn Menacho, A. J., J. F. D. Rodrigues and P. Behrens (2022). A triple bottom line assessment of concentrated solar power generation in China and Europe 2020–2050, in: [Renewable and Sustainable Energy Reviews 167: 112677](https://doi.org/10.1016/j.rser.2022.112677).
 
 Resch, G., F. Schöniger, C. Kleinschmitt, K. Franke, R. Thonig and J. Lilliestam (2022). Deep decarbonization of the European power sector calls for dispatchable CSP, in: [AIP Conference Proceedings 2445 (1): 050006](https://doi.org/10.1063/5.0086710).
 
@@ -87,14 +88,4 @@ Price, H., M. Mehos, D. Kearney, R. Cable, B. Kelly, G. Kolb and F. Morse (2021)
 Mir-Artigues, P., P. del Río and N. Caldés (2019). The Economics and Policy of Concentrating Solar Power Generation, [Springer International Publishing](https://www.springer.com/gp/book/9783030119379).
 
 ## Old versions of CSP.guru
-Johan Lilliestam, Richard Thonig, Alina Gilmanova, & Chuncheng Zang. (2021). CSP.guru (Version 2021-01-01) [Data set]. Zenodo. [http://doi.org/10.5281/zenodo.4613099](http://doi.org/10.5281/zenodo.4613099)
-
-Johan Lilliestam, Richard Thonig, Alina Gilmanova, & Chuncheng Zang. (2020). CSP.guru (Version 2020-07-01) [Data set]. Zenodo. [http://doi.org/10.5281/zenodo.4297966](http://doi.org/10.5281/zenodo.4297966)
-
-Johan Lilliestam, Richard Thonig, Alina Gilmanova, & Chuncheng Zang. (2020). Csp.guru - openCSP (Version 2020-01-01) [Data set]. Zenodo. [http://doi.org/10.5281/zenodo.3909229](http://doi.org/10.5281/zenodo.3909229)
-
-Johan Lilliestam, Mercè Labordena, Lana Ollier, Stefan Pfenninger, Richard Thonig, & Tim Tröndle. (2019). CSP.guru (Version 2019-09-01) [Data set]. Zenodo. [http://doi.org/10.5281/zenodo.3466625](http://doi.org/10.5281/zenodo.3466625)
-
-Johan Lilliestam, Mercè Labordena, Lana Ollier, Stefan Pfenninger, Richard Thonig, & Tim Tröndle. (2018). CSP.guru (Version 2018-05-14) [Data set]. Zenodo. [http://doi.org/10.5281/zenodo.1342716](http://doi.org/10.5281/zenodo.1342716)
-
-Johan Lilliestam, & Mercè Labordena. (2016). CSP.guru (Version 2016-08-30) [Data set]. [https://doi.org/10.1038/nenergy.2017.94](https://doi.org/10.1038/nenergy.2017.94). Zenodo. [http://doi.org/10.5281/zenodo.1318152](http://doi.org/10.5281/zenodo.1318152)
+All versions of CSP.guru are archived at: [https://doi.org/10.5281/zenodo.1318151](https://doi.org/10.5281/zenodo.1318151)
