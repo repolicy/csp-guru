@@ -17,11 +17,11 @@ Lilliestam, J. and R. Pitz-Paal (2018). Concentrating solar power for less than 
 Lilliestam, J., M. Labordena, A. Patt, & S. Pfenninger (2017). Empirically observed learning rates for concentrating solar power and their responses to regime change. [Nature Energy, 2, 17094.]( https://doi.org/10.1038/nenergy.2017.94)
 
 ## Other peer-reviewed publications using csp.guru data for parts of their analysis
-Kesseli, D., et al. (2022). [A Combined Computer Vision and Deep Learning Approach for Rapid Drone-Based Optical Characterization of Parabolic Troughs](https://doi.org/10.1115/1.4055172) Journal of Solar Energy Engineering 145(2)
+Kesseli, D., et al. (2022).A Combined Computer Vision and Deep Learning Approach for Rapid Drone-Based Optical Characterization of Parabolic Troughs.[ Journal of Solar Energy Engineering 145(2)](https://doi.org/10.1115/1.4055172)
 
-Bonilla, J. et al. (in review)[CSP Data: a data discovery web application of commercial CSP plants](https://javier.solar/assets/docs/conf_int/SolarPACES_CSP_Data.pdf)
+Bonilla, J. et al. (in review) CSP Data: a data discovery web application of commercial CSP plants.[Sydney: SolarPACES 2023]((https://javier.solar/assets/docs/conf_int/SolarPACES_CSP_Data.pdf)
 
-Lovering, J., et al. (2022). [Land-use intensity of electricity production and tomorrow’s energy landscape](https://doi.org/10.1371/journal.pone.0270155) PLOS ONE 17(7)
+Lovering, J., et al. (2022). Land-use intensity of electricity production and tomorrow’s energy landscape. [PLOS ONE 17(7)](https://doi.org/10.1371/journal.pone.0270155)
 
 Hahn Menacho, A. J., J. F. D. Rodrigues and P. Behrens (2022). A triple bottom line assessment of concentrated solar power generation in China and Europe 2020–2050, in: [Renewable and Sustainable Energy Reviews 167: 112677](https://doi.org/10.1016/j.rser.2022.112677).
 
