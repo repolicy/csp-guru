@@ -9,7 +9,7 @@ title: Plant List
             <td>Name</td>
             <td>Country</td>
             <td>Status</td>
-            <td>Year</td>
+            <td>Year operational</td>
             <td>Technology</td>
             <td>Capacity [MW]</td>
             <td>Storage capacity [h]</td>
