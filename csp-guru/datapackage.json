@@ -1,10 +1,10 @@
 {
     "title": "CSP.guru",
     "homepage": "https://csp.guru",
-    "version": "2023-01-01",
+    "version": "2023-07-01",
     "profile": "tabular-data-package",
     "description": "A database of concentrating solar power plants of the world for energy modellers and analysts.",
-    "long_description": "This datasets holds technical, economic, financial, and industrial data on all operating concentrating solar power stations and of stations under construction, and many demonstration plants as of 1. January 2023. For detailed description of the data collection procedure of CSP.guru, please see the original article [Lilliestam et al. (2017)](https://doi.org/10.1038/nenergy.2017.94).\n\n## Data Package\n\nWe provide the data in form of a [tabular data package](https://frictionlessdata.io/specs/tabular-data-package/) that consists of a CSV (comma separated values) file holding the actual data and a single JSON file (`datapackage.json`) holding the metadata and an .xlsx file for quick analyses. \n\n## License and conditions\n\nThe licence of this data allows to share and adapt this data if you give appropriate credit, under the Creative Commons Attribution 4.0 International (CC BY 4.0) license.\n\nFor academic and professional use (presentations, journal articles, reports, etc):if possible, please cite the source in which the present dataset was first used [Lilliestam et al. (2021)](  https://doi.org/10.1080/15567249.2020.1773580). Please also link to [www.csp.guru](https://www.csp.guru) if possible.\n\n## Contact\n\nFor questions or issues get in touch with [Richard Thonig](mailto:richard.thonig@iass-potsdam.de).\n## Acknowledgements\nFunding for this version  came from the SolarPACES secretariat. Previous versions of csp.guru were funded by the European Research Council Consolidator Grant [DESERTECTION (grant number 313553)](https://cordis.europa.eu/project/rcn/106709_de.html) for version 2016-08-30; csp.guru versions 2018-05-14 and csp.guru version 2019-09-01 received support from the European Union Horizon 2020 research and innovation program [MUSTEC (grant agreement No 764626) ](https://cordis.europa.eu/project/rcn/211264_en.html).\n\n## Archive\n\nAll versions of the CSP.guru dataset are archived at [Zenodo](https://doi.org/10.5281/zenodo.1318151).",
+    "long_description": "This datasets holds technical, economic, financial, and industrial data on all operating concentrating solar power stations and of stations under construction, and many demonstration plants as of 1. July 2023. For detailed description of the data collection procedure of CSP.guru, please see the original article [Lilliestam et al. (2017)](https://doi.org/10.1038/nenergy.2017.94).\n\n## Data Package\n\nWe provide the data in form of a [tabular data package](https://frictionlessdata.io/specs/tabular-data-package/) that consists of a CSV (comma separated values) file holding the actual data and a single JSON file (`datapackage.json`) holding the metadata and an .xlsx file for quick analyses. \n\n## License and conditions\n\nThis data is ©Richard Thonig and Johan Lilliestam, Research Insitute for Sustainability Helmholtz Centre Potsdam, and available under the Creative Commons Attribution 4.0 International (CC BY 4.0) license, which allows to share and adapt this data if you give appropriate credit.\n\nFor academic and professional use (presentations, journal articles, reports, etc):if possible, please cite the source in which the present dataset was first used [Lilliestam et al. (2021)](  https://doi.org/10.1080/15567249.2020.1773580). Please also link to [www.csp.guru](https://www.csp.guru) if possible.\n\n## Contact\n\nFor questions or issues get in touch with [Richard Thonig](mailto:richard.thonig@iass-potsdam.de).\n## Acknowledgements\nFunding for this version  came from the SolarPACES secretariat. Previous versions of csp.guru were funded by the European Research Council Consolidator Grant [DESERTECTION (grant number 313553)](https://cordis.europa.eu/project/rcn/106709_de.html) for version 2016-08-30; csp.guru versions 2018-05-14 and csp.guru version 2019-09-01 received support from the European Union Horizon 2020 research and innovation program [MUSTEC (grant agreement No 764626) ](https://cordis.europa.eu/project/rcn/211264_en.html).\n\n## Archive\n\nAll versions of the CSP.guru dataset are archived at [Zenodo](https://doi.org/10.5281/zenodo.1318151).",
     "resources": [
           {
             "path": "csp-guru.csv",
@@ -48,13 +48,18 @@
                         "type": "number"
                     },
                     {
-                        "name": "Expected_generation_GWh_per_yr",
-                        "description": "Expected yearly power output GWh per year",
+                        "name": "Expected_generation_CSP_GWh_per_yr",
+                        "description": "Expected yearly CSP power output in GWh per year",
                         "type": "number"
                     },
                     {
-                        "name": "Capacity_factor",
-                        "description": "Ratio of expected electrical energy output over a year to the theoretical maximum electrical energy.",
+                        "name": "Expected_generation_hybrid_GWh_per_yr",
+                        "description": "Expected yearly power output in GWh per year for the whole hybrid plant inclusive PV and Wind.",
+                        "type": "number"
+                    },
+                    {
+                        "name": "Capacity_factor_CSP",
+                        "description": "Ratio of expected CSP only electrical energy output over a year to the theoretical maximum electrical energy of the CSP turbine.",
                         "type": "string"
                     },
                     {
@@ -68,9 +73,14 @@
                         "type": "string"
                     },
                     {
+                        "name": "Hybridisation_capacity_factor",
+                        "description": "Capacity factor of hybrid projects including both CSP and otherpower sources, divided by the theoretical maximum of the CSP turbine and all other generators.",
+                        "type": "string"
+                    },
+                    {
                         "name": "Hybridisation_ratio",
                         "description": "Capacity ratio of non-CSP power sources over CSP turbine capacity.",
-                        "type": "string"
+                        "type": "number"
                     },
                     {
                         "name": "Hybridisation_comment",
@@ -113,8 +123,13 @@
                         "type": "number"
                     },
                     {
-                        "name": "Total_cost_million_currency_non_deflated",
-                        "description":  "Construction cost in million local currency, non-deflated",
+                        "name": "Total_cost_million_currency_non_deflated_CSP",
+                        "description":  "Construction cost of the CSP plant or the CSP component in a hybrid project, in million local currency, non-deflated at time of project announcement.",
+                        "type": "number"
+                    },
+                    {
+                        "name": "Hybrid_Total_cost_million_currency_non_deflated",
+                        "description":  "Construction cost of hybrid plants including the CSP component and all other generators, in million local currency, non-deflated at time of project announcement.",
                         "type": "number"
                     },
                     {
@@ -167,7 +182,7 @@
                         "description": "Indicates the duration of PPA or feed-in tariff",
                         "type": "number"
                     },
-                                        {
+                    {
                         "name": "Support_scheme_type",
                         "description": "Distinguishes the type of support scheme (mainly feed-in tariff (FIT) or power purchase agreement (PPA; either negotiated or auction-based)",
                         "type": "string"
