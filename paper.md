@@ -5,7 +5,7 @@ title: Paper and Analysis
 CSP.guru has been developed since 2016 by Johan Lilliestam and his lab. The following publications refer to the data and use it among their own unique contributions for some of their analysis. You are free to use the data for any academic work by citing the version you use, see [Zenodo for details](https://doi.org/10.5281/zenodo.1318151) and one of the publications leading to new csp.guru version for peer-reviewed methodology behind the data. If you want to collaborate on additional publications or have used csp.guru for highlighting other publication not listed here, please [get in touch](mailto:richard.thonig@rifs-potsdam.de).
 
 <b>Suggested citation:</b>
-Richard Thonig, & Johan Lilliestam. (2023). CSP.guru  (Version 2023-01-01) [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.1318151](https://doi.org/10.5281/zenodo.1318151)
+Richard Thonig, & Johan Lilliestam. (2023). CSP.guru  (Version 2023-07-01) [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.1318151](https://doi.org/10.5281/zenodo.1318151)
 
 ## Peer-reviewed publications leading to new csp.guru versions
 Thonig, R., A. Gilmanova, J. Zhan and J. Lilliestam (2022). Chinese CSP for the world?, in: [AIP Conference Proceedings 2445 (1): 050007](https://doi.org/10.1063/5.0085752).
@@ -17,6 +17,12 @@ Lilliestam, J. and R. Pitz-Paal (2018). Concentrating solar power for less than 
 Lilliestam, J., M. Labordena, A. Patt, & S. Pfenninger (2017). Empirically observed learning rates for concentrating solar power and their responses to regime change. [Nature Energy, 2, 17094.]( https://doi.org/10.1038/nenergy.2017.94)
 
 ## Other peer-reviewed publications using csp.guru data for parts of their analysis
+Kesseli, D., et al. (2022). [A Combined Computer Vision and Deep Learning Approach for Rapid Drone-Based Optical Characterization of Parabolic Troughs](https://doi.org/10.1115/1.4055172) Journal of Solar Energy Engineering 145(2)
+
+Bonilla, J. et al. (in review)[CSP Data: a data discovery web application of commercial CSP plants](https://javier.solar/assets/docs/conf_int/SolarPACES_CSP_Data.pdf)
+
+Lovering, J., et al. (2022). [Land-use intensity of electricity production and tomorrow’s energy landscape](https://doi.org/10.1371/journal.pone.0270155) PLOS ONE 17(7)
+
 Hahn Menacho, A. J., J. F. D. Rodrigues and P. Behrens (2022). A triple bottom line assessment of concentrated solar power generation in China and Europe 2020–2050, in: [Renewable and Sustainable Energy Reviews 167: 112677](https://doi.org/10.1016/j.rser.2022.112677).
 
 Resch, G., F. Schöniger, C. Kleinschmitt, K. Franke, R. Thonig and J. Lilliestam (2022). Deep decarbonization of the European power sector calls for dispatchable CSP, in: [AIP Conference Proceedings 2445 (1): 050006](https://doi.org/10.1063/5.0086710).
@@ -60,6 +66,11 @@ Lilliestam, J., T. Barradi, N. Caldés, M. Gomez, S. Hanger, J. Kern, N. Komenda
 Rea, J. E., C. J. Oshman, M. L. Olsen, C. L. Hardin, G. C. Glatzmaier, N. P. Siegel, P. A. Parilla, D. S. Ginley and E. S. Toberer (2018). Performance modeling and techno-economic analysis of a modular concentrated solar power tower with latent heat storage, in: [Applied Energy 217: 143-152](https://doi.org/10.1016/j.apenergy.2018.02.067).
 
 ## Reports
+
+Feldman, D., Dummit, K., Zuboy, J., and Margolis, R. (2023). [Spring 2023 Solar Industry Update](https://doi.org/10.2172/1974994). United States: NREL 
+
+REN21. 2023. [Renewables 2023 Global Status Report collection, Renewables in Energy Supply](https://www.ren21.net/wp-content/uploads/2019/05/GSR-2023_Energy-Supply-Module.pdf), Paris: REN21 Secretariat
+
 IPCC AR6 WG3 (2022) [Climate Change 2022: Mitigation of Climate Change Full Report](https://report.ipcc.ch/ar6wg3/pdf/IPCC_AR6_WGIII_FinalDraft_FullReport.pdf).Geneva: Intergovernmental Panel on Climate Change
 
 IRENA (2022), [Renewable Power Generation Costs in 2021](
