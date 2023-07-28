@@ -1,5 +1,3 @@
-All data is Copyright: ©Richard Thonig and Johan Lilliestam, Research Insitute for Sustainability Helmholtz Centre Potsdam
-
 The license of this data allows to share and adapt this data if you give appropriate credit, under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) license.
 
 For academic and professional use (presentations, journal articles, reports, etc.):
