@@ -74,7 +74,7 @@
                     },
                     {
                         "name": "Hybridisation_capacity_factor",
-                        "description": "Capacity factor of hybrid projects including both CSP and otherpower sources, divided by the theoretical maximum of the CSP turbine and all other generators.",
+                        "description": "Capacity factor of hybrid projects including both CSP and other power sources, divided by the theoretical maximum of the CSP turbine and all other generators.",
                         "type": "string"
                     },
                     {
