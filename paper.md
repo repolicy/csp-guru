@@ -19,7 +19,7 @@ Lilliestam, J., M. Labordena, A. Patt, & S. Pfenninger (2017). Empirically obser
 ## Other peer-reviewed publications using csp.guru data for parts of their analysis
 Kesseli, D., et al. (2022).A Combined Computer Vision and Deep Learning Approach for Rapid Drone-Based Optical Characterization of Parabolic Troughs.[ Journal of Solar Energy Engineering 145(2)](https://doi.org/10.1115/1.4055172)
 
-Bonilla, J. et al. (in review) CSP Data: a data discovery web application of commercial CSP plants.[Sydney: SolarPACES 2023]((https://javier.solar/assets/docs/conf_int/SolarPACES_CSP_Data.pdf)
+Bonilla, J. et al. (in review) CSP Data: a data discovery web application of commercial CSP plants.[Sydney: SolarPACES 2023](https://javier.solar/assets/docs/conf_int/SolarPACES_CSP_Data.pdf)
 
 Lovering, J., et al. (2022). Land-use intensity of electricity production and tomorrow’s energy landscape. [PLOS ONE 17(7)](https://doi.org/10.1371/journal.pone.0270155)
 
