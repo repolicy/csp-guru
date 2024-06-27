@@ -8,6 +8,8 @@ CSP.guru has been developed since 2016 by Johan Lilliestam and his lab. The foll
 Richard Thonig, & Johan Lilliestam. (2023). CSP.guru  (Version 2023-07-01) [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.1318151](https://doi.org/10.5281/zenodo.1318151)
 
 ## Peer-reviewed publications leading to new csp.guru versions
+Rodat, S., Thonig, R. (2024). Status of Concentrated Solar Power Plants Installed Worldwide: Past and Present Data" [Clean Technologies 6, no. 1: 365-378](https://doi.org/10.3390/cleantechnol6010018).
+
 Thonig, R., A. Gilmanova, J. Zhan and J. Lilliestam (2022). Chinese CSP for the world?, in: [AIP Conference Proceedings 2445 (1): 050007](https://doi.org/10.1063/5.0085752).
 
 Lilliestam, J., L. Ollier, M. Labordena, S. Pfenninger and R. Thonig (2021). The near- to mid-term outlook for concentrating solar power: mostly cloudy, chance of sun, in: [Energy Sources, Part B: Economics, Planning, and Policy 16 (1): 23-41.](https://doi.org/10.1080/15567249.2020.1773580)
@@ -17,6 +19,8 @@ Lilliestam, J. and R. Pitz-Paal (2018). Concentrating solar power for less than 
 Lilliestam, J., M. Labordena, A. Patt, & S. Pfenninger (2017). Empirically observed learning rates for concentrating solar power and their responses to regime change. [Nature Energy, 2, 17094.]( https://doi.org/10.1038/nenergy.2017.94)
 
 ## Other peer-reviewed publications using csp.guru data for parts of their analysis
+Bozorg, M. V., et al. (2023).Thermal energy storage in a tightly packed bed with sodium as the heat transfer fluid: A numerical study. [Applied Energy 352: 121879](https://doi.org/10.1016/j.apenergy.2023.121879).
+
 Kesseli, D., et al. (2022).A Combined Computer Vision and Deep Learning Approach for Rapid Drone-Based Optical Characterization of Parabolic Troughs.[ Journal of Solar Energy Engineering 145(2)](https://doi.org/10.1115/1.4055172)
 
 Bonilla, J. et al. (in review) CSP Data: a data discovery web application of commercial CSP plants. [Sydney: SolarPACES 2023](https://javier.solar/assets/docs/conf_int/SolarPACES_CSP_Data.pdf)
@@ -66,10 +70,15 @@ Lilliestam, J., T. Barradi, N. Caldés, M. Gomez, S. Hanger, J. Kern, N. Komenda
 Rea, J. E., C. J. Oshman, M. L. Olsen, C. L. Hardin, G. C. Glatzmaier, N. P. Siegel, P. A. Parilla, D. S. Ginley and E. S. Toberer (2018). Performance modeling and techno-economic analysis of a modular concentrated solar power tower with latent heat storage, in: [Applied Energy 217: 143-152](https://doi.org/10.1016/j.apenergy.2018.02.067).
 
 ## Reports
+REN21. 2024. [Renewables 2024 Global Status Report Collection: Energy Supply](https://web.archive.org/web/20240619210800/https://www.ren21.net/wp-content/uploads/2019/05/GSR2024_Supply.pdf#page=41). Paris: REN21 Secretariat
 
-Feldman, D., Dummit, K., Zuboy, J., and Margolis, R. (2023). [Spring 2023 Solar Industry Update](https://doi.org/10.2172/1974994). United States: NREL 
+Feldman, D., Dummit, K., Zuboy, J., and Margolis, R. (2023). [Spring 2023 Solar Industry Update](https://doi.org/10.2172/1974994). United States: NREL
 
 REN21. 2023. [Renewables 2023 Global Status Report collection, Renewables in Energy Supply](https://www.ren21.net/wp-content/uploads/2019/05/GSR-2023_Energy-Supply-Module.pdf), Paris: REN21 Secretariat
+
+Taylor, N., Georgakaki, A., Mountraki, A., Letout, S., Ince, E., Shtjefni, D., Kuokkanen, A., Tattini, J. and Diaz Rincon, A. (2023) [Clean Energy Technology Observatory: Concentrated Solar Power and Solar Heating and Cooling in the European Union - 2023 Status Report on Technology Development, Trends, Value Chains and Markets](https://doi.org/10.2760/322182), Luxembourg: Publications Office of the European Union.
+
+IRENA (2023),[Renewable power generation costs in 2022](https://www.irena.org/Publications/2023/Aug/Renewable-Power-Generation-Costs-in-2022), Abu Dhabi: International Renewable Energy Agency.
 
 IPCC AR6 WG3 (2022) [Climate Change 2022: Mitigation of Climate Change Full Report](https://report.ipcc.ch/ar6wg3/pdf/IPCC_AR6_WGIII_FinalDraft_FullReport.pdf).Geneva: Intergovernmental Panel on Climate Change
 
