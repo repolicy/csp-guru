@@ -19,6 +19,8 @@ Lilliestam, J. and R. Pitz-Paal (2018). Concentrating solar power for less than 
 Lilliestam, J., M. Labordena, A. Patt, & S. Pfenninger (2017). Empirically observed learning rates for concentrating solar power and their responses to regime change. [Nature Energy, 2, 17094.]( https://doi.org/10.1038/nenergy.2017.94)
 
 ## Other peer-reviewed publications using csp.guru data for parts of their analysis
+Thonig, R.,  Lilliestam, J. (2024) Cross-technology legitimacy feedback: The politics of policy-led innovation for complementarity in concentrating solar power. [Environmental Innovation and Societal Transitions](https://doi.org/10.1016/j.eist.2024.100884)
+
 Bozorg, M. V., et al. (2023).Thermal energy storage in a tightly packed bed with sodium as the heat transfer fluid: A numerical study. [Applied Energy 352: 121879](https://doi.org/10.1016/j.apenergy.2023.121879).
 
 Kesseli, D., et al. (2022).A Combined Computer Vision and Deep Learning Approach for Rapid Drone-Based Optical Characterization of Parabolic Troughs.[ Journal of Solar Energy Engineering 145(2)](https://doi.org/10.1115/1.4055172)
